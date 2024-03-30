@@ -1,0 +1,1034 @@
+{"intents": [
+{
+    "tag": "salutaion",
+"patterns":["hello","hey","hi","hola","slm","asslema","salut","slt","good morning","cc","coucou"],
+"responses":["Aaslema 🥰 ! Si vous avez des questions spécifiques sur notre gamme 'KONTAKT', ou si vous souhaitez simplement en savoir plus sur notre merveilleuse marque, dites-moi tout. Je suis là pour vous.😍🌟🌈🌞"],
+"contexts":[""]
+},
+{
+    "tag":"au revoir ",
+    "patterns":["ok bye"," bye","by","ok slm ","au revoir","see you ","see u","bonne journé"],
+    "responses":["D'accord, au revoir ! N'hésitez pas à me poser des questions si vous en avez🤗"],
+    "contexts":[""]
+},
+{
+    "tag":"remerciment",
+    "patterns":["ok mercie" ,"thank you","aychek","thaks","thank u","merci bcp","merci"],
+    "responses":["Absolument rien 🤗 ! Je suis là pour vous, si vous avez des questions n'hesitez de me poser "],
+    "contexts":[""]
+},
+{
+    "tag":"information sur le service",
+    "patterns":["Quels services offrez vous?","vos service","le service ","qeul service","quels est votre service","service"],
+    "responses":["Notre site offre une expérience de shopping en ligne exceptionnelle 👕👖🧦👗👙👚👛👜👞👟📿, mettant en vedette une vaste gamme de vêtements pour tous les membres de la famille [FEMME],[HOMME],[ENFANT],[HOMEWEAR].","Nous disposons d'une grande variété de vêtements, allant des tenues décontractées aux tenues formelles pour toutes les tranches d'âge. Quel type de vêtement recherchez-vous précisément?"],
+    "contexts":[""]
+},
+{
+    "tag":"horaire d'ouverture ",
+    "patterns":["quelles sont les heures d'ouverture de vos boutiques ?","a quel heures ouvrent les boutiques "," horaire de travaille des boutiques ","horaire de travaille de vos boutique ","horaire de travaille","horaires d'ouverture","horaire","ouverture"],
+    "responses":[" À Moknine, nous sommes ouverts du lundi au samedi, de 9:00 --> 18:30, le dimanche, de 10:00 --> 18:00.<br>  Mall of Sousse, nos horaires sont de 10:00 --> 21:00 toute la semaine,<br> au Mall of Sfax, nous sommes ouverts de 9:00 --> 21:00, du lundi au dimanche.<br>  🤩"],
+    "contexts":[""]
+},
+{
+    "tag":"ouverture pendant le week end ",
+    "patterns":["Les boutiques sont-elles ouvertes pendant le week-end ?","vous travaillez pendant le weekend ?","vous travaillez en weekend ","le weekend"],
+    "responses":["Absolument ! Nos boutiques sont ouvertes pendant le week-end. Vous êtes les bienvenus pour une agréable expérience shopping.🌟🌞😊"],
+    "contexts":[""]
+},
+{
+    "tag":"localisation ",
+    "patterns":["Où sont localisés vos boutiques ","localisation des  boutiques ?","emplacement de boutiques ?","localisation "],
+    "responses":["Nos boutiques sont situées à des endroits pratiques comme Moknine, Mall of Sousse et Mall of Sfax. Où préférez-vous faire vos achats ? 🤔😍","Nos boutiques sont présentes à divers emplacements 🌙🌎🏢, notamment à Moknine, au Mall of Sousse et au Mall of Sfax. "],
+    "contexts":[""]
+},
+{
+    "tag":"ouverture  de boutique de moknine ",
+    "patterns":["Quelle est l'heure d'ouverture de la boutique en moknine  ?"," a quelle heures ouvre le boutique de moknine ","heure d'ouverture de boutique de moknine ?","boutique de moknine quand ouvre ","a quel heure le boutique de moknine ouvre ","ouverture de boutique de moknine","boutique de moknine ouvre ?"],
+    "responses":["La boutique de Moknine ouvre de lundi a samedi  de 9:00 -->  18:30 , <br> dimanche il ouvre de 10:00 --> 18:00 🕕👗😍"],
+    "contexts":[""]
+},
+{
+    "tag":"fermeture  de boutique de moknine ",
+    "patterns":["a quelle heure la boutique de moknine ferme-t-elle ?","heure de fermeture de boutique de moknine ","fermeture de boutique de moknine ","heure de fermeture de boutique de moknine " ," boutique de moknine ferme  ?"],
+    "responses":["La boutique de moknine ferme à 21:00 durant la semaine et a 18:00 en dimanche 🕕👗😍"],
+    "contexts":[""]
+},
+{
+    "tag":"ouverture de boutique de mall of sousse",
+    "patterns":["Quelle est l'heure d'ouverture de la boutique au Mall of Sousse?" ," a quel heure ouvre le boutique de mall of sousse ","heure d'ouverture de boutique de mall of sousse ?"," boutique de mall of sousse ouvre  ?","ouverture de boutique de mall of sousse","ouverture de boutique de sousse"],
+    "responses":["La boutique au Mall of Sousse est ouverte de 10:00 à 21:00 toute la semaine 🕕👗😍."],
+    "contexts":[""]
+},
+{
+    "tag":"fermeture de boutique de mall of sousse",
+    "patterns":["a quelle heure la boutique de mall of sousse ferme-t-elle ?","l'heure de fermeture de boutique de mall of sousse ","fermeture de boutique de mall of sousse","boutique de mall of sousse ferme  ?","heure de fermeture de boutique mall sousse","fermeture de boutique de sousse"],
+    "responses":["La boutique au Mall of Sousse ferme à 21:00 🕕👗😍"],
+    "contexts":[""]
+},
+{
+    "tag":"ouverture de boutique de mall of sfax",
+    "patterns":["Quelle est l'heure d'ouverture de la boutique au Mall of sfax ?","a quel heure ouvre le boutique de mall of sfax ?","heure d'ouverture de boutique de mall of sfax ?"," heure ouverture de boutique mall sfax ","boutique mall of sfax ouvre  ?","mall of sfax ouvre  ?","ouverture de boutique mall sfax"," ouverture de boutique de sfax"],
+    "responses":["La boutique au Mall of Sfax accueille ses clients de 9:00 à 21:00 tout la semaine🕕👗😍"],
+    "contexts":[""]
+},
+{
+    "tag":"fermeture de boutique de mall of sfax",
+    "patterns":["Quelle est l'heure se ferme de la boutique au Mall of sfax ?","fermeture de boutique de sfax","a quel heure le boutique de mall of sfax ferme -t-elle ?","heure de fermeture de boutique de mall of sfax ?","fermeture de boutique de mall of sfax"," boutique de mall of sfax ferme  ?"],
+    "responses":["La boutique au Mall of sfax ferme à 21:00 🕕👗😍."],
+    "contexts":[""]
+},
+{
+    "tag":"pantalons",
+    "patterns":["avez vous des pantallons?","des pantallons"],
+    "responses":["Nous proposons une variété de pantalons pour ,femmes, hommes et enfants. Quel type de pantalon recherchez-vous précisément ? "],
+    "contexts":[""]
+},
+{
+    "tag":"tshirt",
+    "patterns":["avez vous  des Tshirt ?","tshirt","t-shirt","je veux des t-shirt","je veux t-shirt","t shirt"],
+    "responses":["Nous proposons une large gamme de t-shirts pour hommes, femmes et enfants. Choisissez la catégorie qui vous intéresse :[FEMME],[HOMME],[ENFANT] "],
+    "contexts":[""]
+},
+{
+    "tag":"t-shirt col tunisien",
+    "patterns":["avez vous des t-shirt col tunisien ?","t-shirt col tunisien","col tunisien"],
+    "responses":[" on a des t-shirt col tunisien pour homme vous pouvez visiter ce lien [.....]"],
+    "contexts":[""]
+},
+{
+    "tag":"le service client de KONTAKT ",
+    "patterns":["Comment puis-je contacter le service client de Kontakt ? ","service client"],
+    "responses":["Vous pouvez nous contacter par:<br> téléphone au 73 416 144 <br> e-mail à info@kontakt.com.tn <br> courrier à l'adresse BP47 Z.I. Moknine 5050 Tunisie."],
+    "contexts":[""]
+},
+{
+    "tag":"information sur la commande  ",
+    "patterns":["Les prix des produits peuvent-ils être modifiés après la confirmation de ma commande?","les prix est modifiable apres le commande ?"],
+    "responses":["Les prix peuvent être modifiés par le vendeur à tout moment, mais une fois votre commande confirmée, le prix indiqué dans le récapitulatif est final."],
+    "contexts":[""]
+},
+{
+    "tag":"limite au nombre d'articles  ",
+    "patterns":["Existe-t-il une limite au nombre d'articles que je peux acheter pour une référence spécifique?"," limitaion des article en commande"],
+    "responses":["Oui, il y a une limite d'achat. Par exemple, pour les vêtements/pyjamas, la limite est de 5 articles de la même référence. Vous pouvez acheter au maximum 10 articles de la même référence pour les sous-vêtements."],
+    "contexts":[""]
+},
+{
+    "tag":"verifier la disponibilité des produits  ",
+    "patterns":["Comment puis-je connaître la disponibilité d'un produit spécifique?","disponibilité de produit"],
+    "responses":["Vous pouvez vérifier la disponibilité en consultant la page du produit sur notre site [................]. Si un produit est en rupture de stock, vous pouvez recevoir des notifications lorsque celui-ci est de nouveau disponible."],
+    "contexts":[""]
+},
+{
+    "tag":"delais de livraison ",
+    "patterns":["Quels sont les délais de livraison estimés?"," delais de livraisons","duré d'arrivage de commande","dure de livraison"],
+    "responses":["Les délais varient de 24 à 72 heures selon le mode de livraison choisi."],
+    "contexts":[""]
+},
+{
+    "tag":"fournission d'une adresse en dehors du tunisie ",
+    "patterns":["Que se passe-t-il si je fournis une adresse de livraison en dehors du territoire tunisien ?","je peux passer une commande en dehors de la tunisie ","commande dehors de  tunis"],
+    "responses":["Si l'adresse est en dehors du territoire tunisien, la livraison ne sera pas possible, et aucune réclamation ne sera acceptée."],
+    "contexts":[""]
+},
+{
+    "tag":"suivie de commande ",
+    "patterns":["Comment puis-je suivre ma commande après l'avoir passée?","je veux suivre mon commande","coment je suivi le commande","suivi de commande"],
+    "responses":["Vous pouvez vous connecter à votre compte pour suivre vos commandes. Des mises à jour seront également envoyées par e-mail et SMS."],
+    "contexts":[""]
+},
+{
+    "tag":"formuler une reclamation",
+    "patterns":["Comment puis-je formuler une réclamation concernant un produit ou un service?","reformuler une reclamation","reclamation"],
+    "responses":["Toute réclamation peut être adressée à 'info@kontakt.com.tn' ou via la section 'Contactez-nous' sur notre site."],
+    "contexts":[""]
+},
+{
+    "tag":"retourner un article ",
+    "patterns":["Comment puis-je retourner un article ?","retourner un article","retour d'article ","retour article","retour de commande ","retour"],
+    "responses":["Vous pouvez retourner un article dans les 20 jours suivant l'achat s'il n'a pas été porté ou lavé . Pour des raisons d'hygiène, les sous-vêtements et masques ne sont pas échangeables . Assurez-vous d'avoir l'étiquette de l'article et le ticket de caisse."],
+    "contexts":[""]
+},
+{
+    "tag":"les conditions general de vente",
+    "patterns":["Où puis-je trouver les conditions générales de vente complètes?","les conditions general de vente","codition general de vente"],
+    "responses":["Les conditions générales de vente complètes sont disponibles sur notre site Web[..........]. Nous vous encourageons à les lire attentivement avant de passer une commande.."],
+    "contexts":[""]
+},
+{
+    "tag":"les devises acceptes pour le paiement ",
+    "patterns":["Quelles sont les devises acceptées pour les paiements sur le site www.kontakt.com.tn ","devises de paiement","devise accepter","devises"],
+    "responses":[" Le site accepte uniquement les paiements en Dinar tunisien (TND)"]
+},
+{
+    "tag":"les prix affiches sur le site inclut le frais de transport ",
+    "patterns":["Les prix affichés sur le site incluent-ils les frais de transport ? "," le frais de transport","transport"],
+    "responses":["les frais de transport ne sont pas inclus dans les prix affichés sur la page du produit."]
+},
+{
+    "tag":"modification des prix des articles ",
+    "patterns":["Les prix des articles sur le site peuvent-ils être modifiés après la confirmation de la commande ?","les prix des articles sont ils modifiables","modification de prix des articles ","modification des prix des produits ","modifications des prix"],
+    "responses":[" les prix des articles sur le site peuvent être modifiés par le vendeur à tout moment. Cependant, une fois la commande confirmée, le prix indiqué dans le récapitulatif de commande est le prix final que l'acheteur doit payer."]
+},
+{
+    "tag":"limite d'achat des produits ",
+    "patterns":["Quelle est la limite d'achat pour les vêtements/pyjamas et les sous-vêtements ? ","limite d'achat"],
+    "responses":["Pour les vêtements/pyjamas, la limite est de 5 articles de la même référence. Pour les sous-vêtements, la limite est de 10 articles de la même référence."]
+},
+{
+    "tag":" les differente mode de livraison proposes par kontakt ",
+    "patterns":["Quels sont les différents modes de livraison proposés par Kontakt ?"," mode de livraison","les types de livraisons ","livraison"],
+    "responses":["Kontakt propose deux modes de livraison : la livraison à domicile et le Click and Collect."]
+},
+{
+    "tag":" livraison a domicile ",
+    "patterns":["Comment fonctionne la livraison à domicile","livraison a domicile"],
+    "responses":["Après avoir calculé les frais de port et validé la commande, le colis sera envoyé à l'adresse indiquée par l'acheteur dans un délai de 24 à 72 heures."]
+},
+{
+    "tag":"click and collect",
+    "patterns":["Qu'est-ce que le Click and Collect ?","click and collect","c quoi click and collect"],
+    "responses":["Le Click and Collect permet à l'acheteur de récupérer sa commande dans l'une des boutiques Kontakt, sans frais supplémentaires. Un point de retrait est également disponible au Lac2 pour les habitants du Grand Tunis, où les articles peuvent être retirés chaque Mercredi et Vendredi."]
+},
+{
+    "tag":"condition pour que la livraison effectue avec succes",
+    "patterns":["Quelles sont les conditions pour que la livraison soit effectuée avec succès ?","conditons de livraison"],
+    "responses":["L'acheteur doit fournir une adresse valide et accessible durant les heures ouvrables. Les produits seront expédiés uniquement sur le territoire tunisien. Si une adresse en dehors de la Tunisie est fournie, aucune réclamation ne sera acceptée."]
+},
+{
+    "tag":"les jours de traitement des commandes",
+    "patterns":[" Quels sont les jours de traitement des commandes ?","traitement de commande ","le jours de traitement de commande"],
+    "responses":["Les commandes sont traitées du lundi au vendredi. Le délai de livraison commence à partir du jour ouvré suivant la validation de la commande par l'acheteur."]
+},
+{
+    "tag":"cas d'erreur de fournissions des informations par l'acheteur",
+    "patterns":[" Qui est responsable en cas d'erreur dans les informations fournies par l'acheteur ?"," erreur dans l'information fournit pour une commande","erreur de fournissions des donnes par le client "],
+    "responses":["L'acheteur est entièrement responsable en cas d'erreur dans les informations fournies. Le vendeur ne sera pas tenu responsable et ne remboursera pas les frais de livraison en cas d'interruption du processus de livraison due à une erreur de l'acheteur."]
+},
+{
+    "tag":"cas de retard de livraison",
+    "patterns":["Que se passe-t-il en cas de retard de livraison ? ","retard de livraison"],
+    "responses":["Tout retard de livraison n'est pas une raison valable pour annuler la commande ou demander un remboursement. Cependant, l'acheteur peut contacter le vendeur pour résoudre le problème et améliorer le service client."]
+},
+{
+    "tag":"les donnes personnelles des acheteurs ",
+    "patterns":["Quels engagements Kontakt prend-il concernant les données personnelles des acheteurs ?","les donnes personnelles des acheteurs ","accessibilite au donnes personnelles des acheteurs ","donnes personnellees"],
+    "responses":[" Kontakt s'engage à n'utiliser les données personnelles des acheteurs que dans le cadre du processus d'achat, en garantissant la protection de ces données."]
+},
+{
+    "tag":"satisfaction du client dans sa politique de paiement ",
+    "patterns":["Quelle importance accorde Kontakt à la satisfaction du client dans sa politique de paiement ?","satisfaction client"],
+    "responses":["La satisfaction du client est au cœur de la politique de paiement de Kontakt, qui vise également à garantir la protection des données personnelles et à offrir une expérience d'achat fluide."]
+},
+{
+    "tag":"les modes de paiement ",
+    "patterns":["Quels sont les modes de paiement proposés par Kontakt ?","modes de paiement","mode de paiement de kontakt","paiement kontakt"],
+    "responses":["Kontakt propose deux modes de paiement : les cartes bancaires et le paiement en espèces."]
+},
+{
+    "tag":"paiement par cartes bancaires ",
+    "patterns":["Comment fonctionne le paiement par cartes bancaires ?","paiement par carte bancaire"],
+    "responses":["Les cartes de crédit sont une solution de paiement fiable pour tous les achats dans les boutiques Kontakt. Les paiements en ligne avec cartes de crédit ne sont pas encore disponibles mais seront bientôt ajoutés aux autres modes de paiement."]
+},
+{
+    "tag":"paiement en espéces ",
+    "patterns":["Comment se déroule le paiement en espèces ?"," paiement en especes"],
+    "responses":["Les acheteurs peuvent régler leurs achats en espèces dans l'une des boutiques Kontakt, en points de retrait ou même chez les acheteurs lors de la réception de leurs colis."]
+},
+{
+    "tag":"avantages du paiement en espéces ",
+    "patterns":["Quels sont les avantages du paiement en espèces ?","avantages de paiement en especes"],
+    "responses":[" Le paiement en espèces offre aux acheteurs une grande flexibilité, leur permettant de régler leurs achats de manière pratique et sécurisée, que ce soit en boutique, en point de retrait ou à la réception des colis."]
+},
+{
+    "tag":"politique d'echanges de kontakt ",
+    "patterns":["Quelle est la politique d'échange de Kontakt pour les articles achetés en magasin ?","echange des articles ","echanges de produit","echanges"],
+    "responses":[" Si l'acheteur change d'avis concernant un article acheté en magasin, il peut demander un échange contre un solde égal à la valeur du produit principal, utilisable pour l'achat d'autres articles dans nos boutiques."]
+},
+{
+    "tag":"les conditions d'echange ",
+    "patterns":["Quelles sont les conditions à respecter pour procéder à un échange en magasin ?","condition d'echange"],
+    "responses":[" Pour pouvoir échanger un article acheté en magasin, l'acheteur doit respecter les conditions suivantes :L'échange doit être demandé dans un délai maximum de 10 jours après l'achat, à condition que l'article n'ait pas été porté ou lavé.Les sous-vêtements et masques ne sont pas échangeables pour des raisons d'hygiène.La présentation de l'étiquette de l'article et du ticket de caisse est obligatoire pour tout échange.Les retours ou échanges ne sont acceptés que si l'article acheté est défectueux, auquel cas l'acheteur doit contacter le vendeur pour communiquer les détails du défaut."]
+},
+{
+    "tag":"les avantages le la politique d'change de kontakt ",
+    "patterns":["Quels sont les avantages de la politique d'échange de Kontakt ?","les avantages de politique d'echange","politique d'echange"],
+    "responses":["La politique d'échange de Kontakt offre à l'acheteur la possibilité de changer d'avis sur un article acheté en magasin et de l'échanger contre d'autres articles, sous certaines conditions. Cela permet aux clients de bénéficier d'une plus grande flexibilité dans leurs achats et d'une meilleure expérience client."]
+},
+{
+    "tag":"benefication de l'echange en magasin ",
+    "patterns":["Comment l'acheteur peut-il bénéficier de l'échange en magasin ?","benefication de l'echange en magasin"],
+    "responses":["Pour bénéficier de l'échange en magasin, l'acheteur doit se rendre dans l'un de nos magasins dans un délai maximum de 10 jours après l'achat, présenter l'article à échanger avec son étiquette et son ticket de caisse, et respecter les conditions d'échange énoncées par Kontakt."]
+},
+{
+    "tag":"programme de fidelités proposeé par kontakt ",
+    "patterns":["Quels sont les programmes de fidélité proposés par Kontakt ?","programme de fidelités proposeé par kontakt"],
+    "responses":["Kontakt propose deux programmes de fidélité : la carte de fidélité et la carte cadeau."]
+},
+{
+    "tag":"les avantages de la carte de fidelité ",
+    "patterns":["Quels sont les avantages de la carte de fidélité ?","avantages de carte de fidelite"],
+    "responses":["La carte de fidélité de Kontakt offre les avantages suivants : Valable à vie, mais les points sont remis à zéro à la fin de chaque année . Gratuit et disponible lors du premier achat. Les points accumulés peuvent être utilisés pour acheter des articles soldés, mais l'achat de ces articles ne génère aucun point de fidélité."]
+},
+{
+    "tag":" les avantages de la carte cadeau ",
+    "patterns":[" Quels sont les avantages de la carte cadeau ?","avantage de la carte cadeau"],
+    "responses":["La carte de fidélité de KONTAKT offre les avantages suivants : Valable à vie, mais les points sont remis à zéro à la fin de chaque année . Gratuit et disponible lors du premier achat. Les points accumulés peuvent être utilisés pour acheter des articles soldés, mais l'achat de ces articles ne génère aucun point de fidélité."]
+},
+{
+    "tag":" obtention de la carte fidelite ",
+    "patterns":[" Comment obtenir la carte de fidélité","obtenir carte fidelité","obtention de la carte fidelite"],
+    "responses":[" La carte de fidélité de KONTAKT est disponible gratuitement lors du premier achat. L'acheteur peut en faire la demande lors de sa première visite en magasin ou sur le site internet."]
+},
+{
+    "tag":" obtention de la carte cadeau",
+    "patterns":[" Comment obtenir une carte cadeau ?","obtenir de la carte cadeau","obteention de la carte cadeau"],
+    "responses":["Les cartes cadeaux de Kontakt peuvent être offertes en cadeau et sont rechargeables. Les bons d'achat sont exclusivement offerts au personnel de Kontakt, tandis que d'autres membres peuvent les gagner en participant à des tournages de produits et en remportant des quiz et des défis sur les réseaux sociaux."]
+},
+{
+    "tag":" loi applicable  ",
+    "patterns":[" Quelles lois régissent les ventes de produits de la société Kontakt? ","loi applicable ","loi"],
+    "responses":[" toutes les activités commerciales de la société Kontakt, y compris les ventes de produits et les transactions liées aux cartes de fidélité, cartes cadeaux et bons d'achats, sont régies par la loi tunisienne. Cela signifie que les règles et réglementations en vigueur en Tunisie s'appliquent à toutes les interactions commerciales et contrats entre Kontakt et ses clients."]
+},
+{
+    "tag":" information sur le produit ",
+    "patterns":["Quelles sont les informations fournies pour chaque produit présenté sur votre site ?","les information fournis pour chaque produit","informtaion sur les produits"],
+    "responses":[" Chaque produit présenté sur notre site est accompagné des informations suivantes : <br> Nom du produit  <br> Photos du produit <br> Description du produit<br> Tailles disponibles <br> Matière <br> Composition <br> Couleurs disponibles <br> Prix<br>  De plus, nous faisons de notre mieux pour que la représentation graphique des produits sur le site soit fidèle à la réalité"]
+},
+{
+    "tag":" les options disponible pour passer des commandes sur le site ",
+    "patterns":["Quelles sont les options disponibles pour passer des commandes sur le site Internet de Kontakt ?"],
+    "responses":["Kontakt permet aux visiteurs de son site Internet de passer des commandes depuis leurs ordinateurs personnels, smartphones ou tablettes. En naviguant sur notre site [ www.kontakt.com.tn ], vous êtes censé accepter nos conditions générales de vente. Nous vous invitons à prêter attention aux conditions mentionnées ci-dessous et à les lire attentivement avant d'effectuer tout achat sur notre site Web, en notant que vous pouvez toujours nous contacter au cas où vous souhaiteriez obtenir plus de précisions concernant l'une de nos conditions générales. De plus, vous pouvez toujours profiter de nos promotions et offres  que de notre programme de fidélité."]
+},
+{
+    "tag":" philosophie de kontakt ",
+    "patterns":["Comment Kontakt a-t-il commencé et quelle est sa philosophie ?","l'histoire de flamon rose","flamon rose"],
+    "responses":[" Tout a commencé en 2014 avec le flamant rose, un oiseau emblématique de la région du Sahel Tunisien, qui a inspiré la création du logo de Kontakt. La marque est 100% tunisienne, mettant en avant le savoir-faire local avec des normes de production et de tissu équivalentes à celles des pays européens. Le logo, avec une aiguille, symbolise l'héritage pionnier de Kontakt dans l'industrie textile régionale. Le slogan 'Koun Kima Enty' exprime le désir de Kontakt d'habiller tout le monde en proposant une large gamme de produits variés, permettant à chacun de trouver son bonheur et son confort tout en restant soi-même. L'orientation de Kontakt est centrée sur la création de produits de haute qualité, en mettant l'accent sur la durabilité, la transparence dans la production et des prix abordables, dans le but d'aider sa communauté à briller tout en étant authentique."]
+},
+{
+    "tag":" debut de la marque kontakt et localisation ",
+    "patterns":["Comment la marque Kontakt a-t-elle commencé et où se trouve son siège ?","pourquoi moknine","l'histoir de depart de kontakt","le point de depart de la marque kontakt","fondation de kontakt","depart de kontakt"],
+    "responses":["La ville de Moknine, Monastir, a été le point de départ de la marque Kontakt, la lançant vers les marchés nationaux puis internationaux. Les collections sont créées par une équipe de designers internes, et tous les produits sont fabriqués dans les usines de la marque, en suivant des procédures strictes en matière de qualité et d'éco-responsabilité. Les images et vidéos utilisées sont produites en interne dans les studios de la marque par des photographes internes. Les plateformes e-commerce et les réseaux sociaux sont également gérés par l'équipe interne de Kontakt. Grâce à l'originalité et à la créativité de son équipe, Kontakt a pu se développer et établir une solide communauté de membres fidèles."]
+},
+{
+    "tag":" originalite le but de la marque kontakt ",
+    "patterns":["Quelle est la mission de la marque Kontakt et comment s'engage-t-elle envers l'environnement ?","le but de la marque kontakt ","pourquoi kontakt","kontakt"],
+    "responses":["La mission de la marque Kontakt est d'aider ses clients à être authentiques tout en restant à la pointe des tendances et en préservant notre planète. Kontakt se soucie de l'écosystème tunisien et mondial, et s'engage à lutter contre le réchauffement climatique. Pour ce faire, Kontakt a mis en place un système de production respectueux de l'environnement, axé sur le recyclage de toutes les matières utilisées et une utilisation efficace de l'énergie. La marque est fière de ses certifications obtenues après des années de recherche, de développement et d'investissement dans le domaine de la protection de l'environnement."]
+},
+{
+    "tag":"les types de produit propose par kontakt ",
+    "patterns":[" Quels types de produits proposez-vous chez Kontakt ?","type de produits chez kontakt","type de produit "],
+    "responses":[" Chez Kontakt, nous proposons une large gamme de produits, notamment des vêtements pour femmes, hommes, enfants et bébés. Nous avons également des articles spécialement conçus pour les femmes enceintes, les grandes tailles et les seniors. Notre sélection de matières est diverse, allant du jersey au tricot de coton, en passant par l'interlock, le molleton, le piqué de coton, la chaine et trame, le sergé de coton, le jeans, et bien d'autres. De plus, nos produits sont disponibles dans différentes compositions telles que le coton, le coton biologique, le polyamide, le polyester, le lin, le lyocell, etc."]
+},
+{
+    "tag":"devenir un membre club ",
+    "patterns":[" Comment devenir membre du Kontakt Member Club ? ","devenir un membre club","membre club"],
+    "responses":[" Pour devenir membre du Kontakt Member Club, vous devez créer un compte Kontakt et demander votre carte de fidélité. Si vous avez déjà un compte, vous pouvez simplement demander votre carte de fidélité en fournissant les informations manquantes. La carte est gratuite et peut être demandée lors de votre premier achat.."]
+},
+{
+    "tag":"cumuler des points avec la carte de membre ",
+    "patterns":[" Comment cumuler des points avec la carte de membre ?","cumuler des points de la carte membre","cumuler des pts","cumuler des points"],
+    "responses":[" Vous pouvez gagner des points à chaque achat, en évaluant des articles ou en parrainant un ami. Chaque dinar dépensé équivaut à 2 points. Cependant, aucun point n'est cumulé lors de l'achat d'articles soldés ou de masques.."]
+},
+{
+    "tag":"utiliser les points cumulés avec la carte de membre ",
+    "patterns":[" Comment utiliser les points cumulés avec la carte de membre ?","utiliser les points cumuler"],
+    "responses":[" Une fois que vous avez cumulé 2000 points, vous recevrez un bon d'achat de 20 dinars. Les points sont remis à zéro chaque année, mais la carte reste valable à vie. Vous pouvez utiliser vos points pour acheter des articles soldés, mais l'achat de ces articles ne rapportera aucun point de fidélité supplémentaire. "]
+},
+{
+    "tag":"avantages offerts aux membres du kontakt club member pour leur anniversaire",
+    "patterns":[" Quels sont les avantages spéciaux offerts aux membres du Kontakt Member Club pour leur anniversaire ","avantage aux club member"],
+    "responses":[" Nous offrons aux membres du Kontakt Member Club une réduction de 20% sur tous les articles non soldés et hors masques pendant leur semaine d'anniversaire. C'est notre façon de célébrer avec vous et de vous remercier de votre fidélité. "]
+},
+{
+    "tag":"termes et conditons d'utilisation de la carte kontakt membre club",
+    "patterns":["Quels sont les principaux termes et conditions associés à l'utilisation de la carte Kontakt Membre Club ?","termes et conditions d'utilisation de la carte kontakt membre club","conditions d'utilisation de la carte kontakt membre club"],
+    "responses":["Les points accumulés avec la carte peuvent être utilisés pour acheter des articles soldés, mais aucun point de fidélité supplémentaire n'est accordé pour ces achats. La carte est valable à vie, mais ses points seront remis à zéro chaque année. Elle est gratuite et strictement personnelle. Les changements d'informations personnelles doivent être notifiés au service client de Kontakt dans les meilleurs délais. "]
+},
+{
+    "tag":"obtention de la carte kontakt membre club",
+    "patterns":["Comment puis-je obtenir la carte Kontakt Membre Club ?","obtention de la carte club membre ","obtenir la carte club membre"],
+    "responses":["Vous pouvez demander la carte Kontakt Membre Club lors de votre premier achat en remplissant les informations nécessaires à l'activation de votre compte membre. La carte est gratuite et peut être demandée à tout moment. "]
+},
+{
+    "tag":"devoir de metttre a jour des informations / infos personnelle",
+    "patterns":["Que se passe-t-il si je dois mettre à jour mes informations personnelles ?","mettre a jour mes informations personnelles","mise a jour des infos personnelles"],
+    "responses":["Tout changement concernant votre adresse, votre nom, votre numéro de téléphone ou toute autre information pertinente doit être notifié au service client de Kontakt dès que possible. Ceci est essentiel pour maintenir vos informations à jour et assurer un service optimal."]
+},
+{
+    "tag":"devenir membre du kontakt club et utilisation de mes donnes personnelles ",
+    "patterns":["Que signifie l'inscription au Kontakt Membre Club en termes d'utilisation de mes données personnelles ?","membre club et utilisation de mes donnes personnelles"],
+    "responses":["En adhérant au Kontakt Membre Club, vous consentez à ce que la société ALL FASHION utilise vos données personnelles pour des études et des analyses commerciales. Cela vise à mieux vous connaître en fonction de vos achats, de vos centres d'intérêt et de vos attentes, afin de vous adresser des informations et des offres ciblées."]
+},
+{
+    "tag":"les offre d'emplois en kontakt   ",
+    "patterns":["Où puis-je trouver les offres d'emploi actuelles proposées par votre entreprise ?","offre d'emplois en kontakt","offre d'emplois","emplois"],
+    "responses":["  Vous pouvez trouver toutes nos offres d'emploi actuelles sur notre site web dédié à notre carrière professionnelle. Suivez ce lien pour découvrir nos opportunités :[ https://www.allfashion-brands.com/carriere/ ] "]
+},
+{
+    "tag":"les engagements requis pour devenir un partenair de la marque kontakt  ",
+    "patterns":["Quels sont les engagements requis pour devenir partenaire de la marque Kontakt ?","devenir un partenair de la marque kontakt","partenair de la marque kontakt"],
+    "responses":["  Pour devenir partenaire de la marque Kontakt, vous devez vous engager à respecter les conditions suivantes : <br> Respecter et afficher les prix publics fixés par la marque.<br> Obtenir l'accord de la marque avant toute modification des prix. <br> Choisir les articles des nouvelles collections proposées chaque année par la marque.<br> Assurer une représentation adéquate des produits en boutique ou en ligne, validée par la marque. <br> Accepter les vérifications régulières des représentants de la marque et effectuer les modifications nécessaires.<br> Reconnaître que les parties sont des contractantes indépendantes et respecter les droits de propriété de la société ALL FASHION sur la marque Kontakt. "]
+},
+{
+    "tag":"devenir un partenaire d'une boutique physique de la marque kontakt  ",
+    "patterns":["Quelles sont les informations requises pour devenir partenaire d'une boutique physique de la marque Kontakt ?","devenir un partenaire d'une boutique physique de la marque kontakt ","partenaire d'une boutique physique de kontakt"],
+    "responses":["  Pour devenir partenaire d'une boutique physique de la marque Kontakt, vous devez fournir les informations suivantes :<br> Nom de la boutique<br> Superficie de la boutique<br> Emplacement exact de la boutique (de préférence avec un lien Google Maps) <br>  Documents prouvant que vous êtes le propriétaire de la boutique et qu'elle est en règle <br> Photo de l'extérieur de la boutique<br> Photo de l'intérieur de la boutique"]
+},
+{
+    "tag":"devenir partenair d'une boutique en ligne de la marque kontakt  ",
+    "patterns":["Quelles sont les informations requises pour devenir partenaire d'une boutique en ligne de la marque Kontakt ?","partenair  d'une boutique en ligne de la marque kontakt","partenair d'une boutique en ligne de kontakt"],
+    "responses":["  Pour devenir partenaire d'une boutique en ligne de la marque Kontakt, les mêmes informations que pour une boutique physique sont nécessaires, à l'exception de la superficie de la boutique. "]
+},
+{
+    "tag":"devenir mannequin pour la marque Kontakt   ",
+    "patterns":["Quels sont les critères pour devenir mannequin pour la marque Kontakt ? ","devenir une mannquin ","mannequin"],
+    "responses":["Pour devenir mannequin pour la marque Kontakt, nous recherchons des personnes, qu'elles soient expérimentées ou débutantes, qui sont intéressantes et prometteuses dans le domaine du mannequinat. Nous souhaitons collaborer avec des individus partageant nos valeurs et désireux de contribuer à la réalisation de nos objectifs. Si vous souhaitez représenter une marque qui valorise le bien-être et l'expression personnelle à travers ses produits et collections, remplissez notre formulaire pour avoir la chance de devenir un mannequin Kontakt."]
+},
+{
+    "tag":"passer une commande    ",
+    "patterns":["Je vais passer une commande sur cet article","comment je peux passer une commande","passer une commande","une commande"],
+    "responses":["Avant de finaliser votre commande, assurez-vous de remplir correctement les détails nécessaires 👍💖 : votre adresse exacte,<br> nom complet,<br> adresse e-mail fonctionnelle,<br> numéro de téléphone de travail <br> Une fois la commande confirmée . <br> vous recevrez des mises à jour par e-mail et SMS pour suivre le processus de livraison. Si vous avez des questions ou besoin d'aide, n'hésitez pas à demander. Bon shopping!"]
+},
+{
+    "tag":"tshirt pour femmme",
+    "patterns":["avez vous  des Tshirt pour femme  ?","tshirt femme ","t-shirt femme","je veux des t-shirt femme","je veux t-shirt femme","t shirt femme"],
+    "responses":["Nous proposons une large gamme de t-shirts pour femmes . <br> Choisissez la catégorie qui vous intéresse :<br>  [TOUS VOIR ],[T-SHIRT SUR TAILLE], [T-SHIRT OVERSIZED], [T-SHIRT SLIM], [T-SHIRT REGULAR], [T-SHIRT CROP], [T-SHIRT COL TUNISIEN], [T-SHIRT COTELE] <br>   vous pouvez visiter ce lien :<br> <a href='https://kontakt.com.tn/shop/category/femme-vetements-t-shirts-27' target='blank'>https://kontakt.com.tn/t-shirts</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"tshirt pour homme",
+    "patterns":["avez vous  des Tshirt pour homme  ?","tshirt homme","t-shirt homme","je veux des t-shirt homme","je veux t-shirt homme","t shirt homme"],
+    "responses":[" Les t-shirts pour HOMMEs de notre collection sont disponibles dans différentes  couleurs et articles :<br>  [TOUT VOIR], [T-SHIRT OVERSIZED], [T-SHIRT SLIM], [DEBARDEUR], [T-SHIRT COL TUNISIEN] <br>  vous pouvez visiter ce lien :<br> <a href='https://kontakt.com.tn/shop/category/homme-vetements-t-shirts-10' target='blank'>https://kontakt.com.tn/t-shirts</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"tshirt pour fille",
+    "patterns":["avez vous  des Tshirt pour fille ?","tshirt fille","t-shirt fille","je veux des t-shirt fille","je veux t-shirt fille","t shirt fille"],
+    "responses":[" Voici les types de t-shirts disponibles pour les FILLES dans notre collection :<br>  [TOUT VOIR],[DEBARDEUR],[T-SHIRT OVERSIZED], [T-SHIRT CROPPED], [T-SHIRT SUR TAILLE] <br>  vous pouvez visiter ce lien : <br> <a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-t-shirts-57' target='blank'>https://kontakt.com.tn/t-shirts</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"tshirt pour garcon",
+    "patterns":["avez vous  des Tshirt pour garcon ?","tshirt garcon","t-shirt garcon","je veux des t-shirt garcon","je veux t-shirt garcon","t shirt garcon"],
+    "responses":[" Voici les types de t-shirts disponibles pour les garçons dans notre collection :<br>  [TOUT VOIR],[DEBARDEUR], [T-SHIRT REGULAR],[T-SHIRT COL TUNISIEN]<br>  vous pouvez visiter ce lien : <br> <a href='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-t-shirts-113' target='blank'>https://kontakt.com.tn/t-shirts</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"tshirt /polo pour bébé ",
+    "patterns":["avez vous  des Tshirt pour bebe ?","tshirt bebe","t-shirt bebe","je veux des t-shirt bebe","je veux t-shirt bebe","t shirt bebe"," polo bebe "],
+    "responses":[" Adorable! 👶 Voici les types de t-shirts disponibles pour les bébés dans notre collection : <br> [TOUT VOIR],[DEBARDEUR],[T-SHIRT REGULAR],[T-SHIRT OVERSIZED],[POLO] <br> voici ce lien vous pouvez le visiter :<br> <a href=' https://kontakt.com.tn/shop/category/bebe-vetements-t-shirts-polos-83' target='blank'>https://kontakt.com.tn/t-shirts</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"homewear",
+    "patterns":["Vous avez des Homewear ? ","homewear"],
+    "responses":["Vous recherchez des Homewear : <br> [FEMME], [HOMME] ,[ENFANT] <br>  Choisissez la catégorie qui vous intéresse  "],
+    "contexts":[""]
+},
+{
+    "tag":"homewear femme",
+    "patterns":["Vous avez des Homewear pour femme? ","homewear femme"],
+    "responses":["Super choix 👚🙋‍♀! les Homewear de notre collection sont disponibles dans différentes articles : <br> [PYJAMAS],[UNDERAWEAR]"],
+    "contexts":[""]
+},
+{
+    "tag":"pyjama femme global",
+    "patterns":["Vous avez des pyjama pour femme? ","pyjama femme"],
+    "responses":["super 👍👩 ! Découvrez nos pyjamas pour FEMMES : <br> [TOUT VOIR],[TOP & PANTALON],[TOP & PANTACOURT],[NUISETTE & SETS],[PEIGNOIR],[ROBE DE PYJAMA],[FEMME ENCEINTE] <br>  vous pouvez visite ce lien :<br> <a href=' https://kontakt.com.tn/shop/category/femme-homewear-23' target='blank'>https://kontakt.com.tn/homewear</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"underwear femme global",
+    "patterns":["Vous avez des underwear pour femme? ","underwear femme","sous vetement femme "],
+    "responses":["super ! Découvrez nos underwear pour FEMME 👙👚🤩<br> [TOUT VOIR],[CULOTTE & SLIP],[CARACO & DEBARDEUR],[ARTICLES EN COTON BIO],[FEMME ENCEINTE],[GRANDES TAILLES] <br>  vous pouvez visite ce lien :<br> <a href=' https://kontakt.com.tn/shop/category/femme-underwear-22' target='blank'>https://kontakt.com.tn/underwear</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"homewear homme",
+    "patterns":["Vous avez des Homewear pour homme? ","homewear homme"],
+    "responses":["Super choix 👕🙆‍♂! les Homewear de notre collection sont disponibles dans différentes articles: <br> [PYJAMAS],[UNDERAWEAR]"],
+    "contexts":[""]
+},
+{
+    "tag":"pyjama homme global",
+    "patterns":["Vous avez des pyjama pour homme? ","pyjama homme"],
+    "responses":["super 👍💙 ! Découvrez nos pyjamas pour HOMME : <br>  [TOUT VOIR], [T-SHIRT & PANTALON], [T-SHIRT & SHORT], [DEBARDEUR & SHORT] <br>   vous pouvez visite ce lien : <br> <a href='https://kontakt.com.tn/shop/category/homme-homewear-7' target='blank'>https://kontakt.com.tn/homewear</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"underwear homme global",
+    "patterns":["Vous avez des underwear pour homme? ","underwear homme","sous vetement homme "],
+    "responses":["super 👌💙! Découvrez nos underwear pour HOMME : <br> [TOUT VOIR],[SLIP],[SHORTY], [BOXER & CALCON],[SINGLET & T-SHIRT],[ARTICLES EN COTON BIO],[GRANDES TAILLES] <br>  vous pouvez visite ce lien :<br> <a href='https://kontakt.com.tn/shop/category/homme-underwear-6' target='blank'>https://kontakt.com.tn/underwear</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"homewear enfant ",
+    "patterns":["Vous avez des Homewear pour enfant? ","homewear enfant"],
+    "responses":["Super choix 👕🙆‍♂! les Homewear de notre collection sont disponibles dans différentes articles :<br> [FILLE],[GARCON] <br>  vous pouvez trouver tout ca en visitant ce lien :<br> <a href=' https://kontakt.com.tn/shop/category/enfants-homewear-537' target='blank'>https://kontakt.com.tn/homewear</a>" ],
+    "contexts":[""]
+},
+{
+    "tag":"homewear fille ",
+    "patterns":["Vous avez des Homewear pour fille? ","homewear fille"],
+    "responses":["Super choix 👚🙋‍♀! les Homewear de notre collection sont disponibles dans différentes articles : <br> [PYJAMAS],[UNDERAWEAR] <br>  vous pouvez visiter ce lien :<br> <a href='https://kontakt.com.tn/shop/category/enfants-fille-homewear-53' target='blank'>https://kontakt.com.tn/homewear</a> "],
+    "contexts":[""]
+},
+{
+    "tag":"pyjama fille global",
+    "patterns":["Vous avez des pyjama pour fille? ","pyjama fille"],
+    "responses":["cool 💖😍👧 ! Découvrez nos pyjamas pour FILLE : <br> [TOUT VOIR],[ROBE DE PYJAMA],[PYJAMA ML + PANTALON],[PYJAMA MC + PANTALON] <br>  vous pouvez visite ce lien : <br> <a href=' https://kontakt.com.tn/shop/category/enfants-fille-homewear-53' target='blank'>https://kontakt.com.tn/homewear</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"underwear fille global",
+    "patterns":["Vous avez des underwear pour fille? ","underwear fille","sous vetement fille "],
+    "responses":["super💗👌🦋🐬 ! Découvrez nos underwear pour FILLEs : <br> [TOUT VOIR],[CARACO & BRASSIERE],[SLIP & BOXER]<br>  vous pouvez visite ce lien : <br> <a href='https://kontakt.com.tn/shop/category/enfants-fille-underwear-54' target='blank'>https://kontakt.com.tn/underwear</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"homewear garcon",
+    "patterns":["Vous avez des Homewear pour garcon? ","homewear garcon"],
+    "responses":["Super choix 👚🙋‍♀! les Homewear de notre collection sont disponibles dans différentes articles : <br> [PYJAMAS],[UNDERAWEAR] <br>   vous pouvez visiter ce lien :\n<a href=' https://kontakt.com.tn/shop/category/enfants-garcon-homewear-49'target='blank'> https://kontakt.com.tn/homewear</a> "],
+    "contexts":[""]
+},
+{
+    "tag":"pyjama garcon global",
+    "patterns":["Vous avez des pyjama pour garcon? ","pyjama garcon "],
+    "responses":["super ✌💙! Découvrez nos pyjamas pour GARCONs :<br> [TOUT VOIR],[T-SHIRT & PANTALON],[T-SHIRT & SHORT]<br>   vous pouvez visiter ce lien :<br> <a href=' https://kontakt.com.tn/shop/category/enfants-garcon-homewear-49'target='blank'>https://kontakt.com.tn/homewear</a> "],
+    "contexts":[""]
+},
+{
+    "tag":"underwear garcon global",
+    "patterns":["Vous avez des underwear pour garcon? ","underwear garcon","sous vetement garcon"],
+    "responses":["super 🧒🙆‍♂ ! Découvrez nos underwear pour GARCONs : <br> [TOUT VOIR],[BOXER & SLIP],[SINGLET & DEBARDEUR]<br>   vous pouvez visiter ce lien : <br> https://kontakt.com.tn/underwear"],
+    "contexts":[""]
+},
+{
+    "tag":"homewear bébé",
+    "patterns":["Vous avez des Homewear pour bebe? ","homewear bébé"],
+    "responses":["Super choix 👦👧🐣! les Homewear de notre collection sont disponibles dans différentes articles :<br> [PYJAMAS],[UNDERAWEAR] <br>  vous pouvez visiter ce lien :<br> <a href=' https://kontakt.com.tn/shop/category/bebe-homewear-pyjamas-313' target='blank'>https://kontakt.com.tn/pyjamas</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"pyjama bébé global",
+    "patterns":["Vous avez des pyjama pour bébé? ","pyjama bebe "],
+    "responses":["super 🐹🐰🦊💖 ! Découvrez nos pyjamas pour bébés :<br> [TOUT VOIR],[PYJAMA ML + PANTALON],[TOP & SHORT],[BARBOTEUSE] <br>  vous pouvez visiter ce lien :<br> <a href=' https://kontakt.com.tn/shop/category/bebe-homewear-pyjamas-313' target='blank'>https://kontakt.com.tn/pyjamas</a> "],
+    "contexts":[""]
+},
+{
+    "tag":"underwear bebe global",
+    "patterns":["Vous avez des underwear pour bebe? ","underwear bebe","sous vetement bebe"],
+    "responses":["super 🐙🦋🐸🐱💝! Découvrez nos underwear pour bébés : <br> [TOUT VOIR],[BODY MANCHES LONGUES],[BODY MANCHES COURTES],[BODY SANS MANCHES],[GRENOUILLERE] <br>   vous pouvez visiter ce lien :<br> <a href=' https://kontakt.com.tn/shop/category/bebe-homewear-underwear-538' target='blank'>https://kontakt.com.tn/underwear</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"jeans",
+    "patterns":["Vous avez des jeans ","jeans"],
+    "responses":["Vous recherchez des jeans :<br> [FEMME], [HOMME], [ENFANT], [BEBE] <br>  Choisissez la catégorie qui vous intéresse "],
+    "contexts":[""]
+},
+{
+    "tag":"jeans pour femme",
+    "patterns":["Vous avez des jeans pour femme ","jeans pour femme","jeans femme"],
+    "responses":["Super choix! 😍👖💁‍♀ Les jeans pour FEMME de notre collection sont disponibles dans différentes articles <br> [TOUT VOIR],[JEGGING],[SKINNY],[MUM SLIM],[SLIM],[MUM],[BALLOON],[CARGO],[CARPENTER],[STRAIGHT],[WIDE LEG],[FLARE],[PARACHUTE],[RIBCAGE],[PUSH UP] <br>   vous pouvez visiter ce lien : <br> <a href='https://kontakt.com.tn/shop/category/femme-vetements-jeans-25' target='blank'>https://kontakt.com.tn/jeans</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"jeans pour homme",
+    "patterns":["Vous avez des jeans pour homme ","jeans pour homme","jeans homme"],
+    "responses":["Super choix 👌👖😎😍 Les jeans pour HOMMEs de notre collection sont disponibles dans différentes articles <br> [TOUT VOIR],[SKINNY],[SLIM],[REGULAR],[LOOSE],[CARPENTER],[CARGO],[DAD] <br>  vous pouvez visiter ce lien : <br> <a href='https://kontakt.com.tn/shop/category/homme-vetements-jeans-9' target='blank'>https://kontakt.com.tn/jeans</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"jeans pour fille",
+    "patterns":["Vous avez des jeans pour fille ","jeans pour fille","jeans fille"],
+    "responses":["Super choix  👌😘👧 Découvrez nos jeans pour FILLE ici : <br> [TOUT VOIR],[JEGGING],[SKINNY],[STRAIGHT],[CARGO],[FLARE],[PAPERBAG ],[WIDE LEG ] <br>  vous pouvez visiter ce lien :<br> <a href=' https://kontakt.com.tn/shop/category/enfants-fille-vetements-jeans-168' target='blank'>https://kontakt.com.tn/jeans</a>"],
+    "contexts":[""]
+
+},
+{
+    "tag":"jeans pour garcon",
+    "patterns":["Vous avez des jeans pour garcon ","jeans pour garcon","jeans garcon"],
+    "responses":["super 👌🤝🦊! Découvrez nos jeans pour GARCON ici :<br> [TOUT VOIR],[SKINNY],[SLIM ],[STRAIGHT],[CARGO ] <br>   vous pouvez visiter ce lien : <br> <a href=' https://kontakt.com.tn/shop/category/enfants-garcon-vetements-jeans-112' target='blank'>https://kontakt.com.tn/jeans</a> "],
+    "contexts":[""]
+},
+{
+    "tag":"jeans pour bebe",
+    "patterns":["Vous avez des jeans pour bebe ","jeans pour bebe","jeans bebe"],
+    "responses":["super 🐣🐥🌞🌈 ! Découvrez nos jeans pour bébés ici :<br> [TOUT VOIR],[TREGGING],[SKINNY],[STRAIGHT],[CARGO],[PAPERBAG] <br> sinon vous pouvez visiter ce lien :<br> <a href=' https://kontakt.com.tn/shop/category/bebe-vetements-jeans-84 ' target='blank'>https://kontakt.com.tn/jeans</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"chemise /blouse",
+    "patterns":["Vous avez des chemises ","chemise","shemise","blouse"],
+    "responses":["Vous recherchez des chemises :<br>  [FEMME], [HOMME], [ENFANT], [BEBE] .<br> Choisissez la catégorie qui vous intéresse "],
+    "contexts":[""]
+},
+{
+    "tag":"chemise/blouse pour femme",
+    "patterns":["Vous avez des chemise pour femme ","chemise pour femme","chemise femme","blouse pour femme","blouse femme","shemise femme"],
+    "responses":["Super choix! 🙏💁‍♀ Les chemises & blouses pour FEMME de notre collection sont disponibles dans différentes articles <br>  [TOUT VOIR],[CHEMISES WESTERN],[CHEMISES OVERSIZED],[CHEMISES CROPPED],[BLOUSES] <br> vous pouver visiter ce lien :<br> <a href=' https://kontakt.com.tn/shop/category/femme-vetements-chemises-blouses-85' target='blank'>https://kontakt.com.tn/chemises-blouses</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"chemise/blouse pour homme",
+    "patterns":["Vous avez des chemises pour homme ","chemises pour homme","chemises pour  homme","blouse homme","shemise homme"],
+    "responses":["Super choix! 🙏🙋‍♂ Les jchemises & blouses pour HOMME de notre collection sont disponibles dans différentes articles <br> [TOUT VOIR],[CHEMISE COL TUNISIEN],[CHEMISE WESTERN],[CHEMISE WORKWEAR] <br> sinon vous pouvez visiter ce lien :<br> <a href=' https://kontakt.com.tn/shop/category/homme-vetements-chemises-blouses-11' target='blank'>https://kontakt.com.tn/chemises-blouses</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"chemise/blouse pour enfant",
+    "patterns":["Vous avez des chemise pour enfant","chemise pour enfant","chemise enfant","blouse enfant","shemise enfant"],
+    "responses":["Super choix 👦👧 Découvrez nos jeans pour ENFANT ici : <br> [FILLE],[GARCON],[BEBE]"],
+    "contexts":[""]
+
+},
+{
+    "tag":"chemise/blouse pour fille",
+    "patterns":["Vous avez des chemise pour fille ","chemise pour fille","chemise fille","blouse fille","shemise fille"],
+    "responses":["super👌🙏👧 ! Découvrez nos chemises & blouses pour FILLEs ici <br> [TOUT VOIR],[CHEMISE COL TUNISIEN],[CHEMISE REGULAR] <br>   vous pouvez visiter ce lien :<br> <a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-chemises-blouses-402 ' target='blank'>https://kontakt.com.tn/chemises-blouses</a>"],
+    "contexts":[""]
+
+},
+{
+    "tag":"chemise/blouse pour garcon",
+    "patterns":["Vous avez des chemise pour garcon ","jchemise pour garcon","chemise garcon","blouse garcon","shemise garcon"],
+    "responses":["super🐟👌🧑 ! Découvrez nos chemises & blouses pour GARCONs ici <br> [TOUT VOIR],[SUR CHEMISE],[CHEMISE REGULAR] <br>  vous pouvez visiter ce lien : <br> <a href='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-chemises-blouses-116' target='blank'>https://kontakt.com.tn/chemises-blouses</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"chemise / blouse pour bebe",
+    "patterns":["Vous avez des chemise pour bebe ","chemise pour bebe","chemise bebe","shemise bebe","blouse bebe"],
+    "responses":["super 🐣🐥🌞🌈 ! Découvrez nos jeans pour bébés ici <br> [TOUT VOIR],[SUR CHEMISE],[CHEMISE REGULAR]<br>  sinon vous pouvez visiter ce lien : <br> <a href='https://kontakt.com.tn/shop/category/bebe-vetements-chemises-blouses-453' target='blank'>https://kontakt.com.tn/chemises-blouses</a> "],
+    "contexts":[""]
+},
+{
+    "tag":"tops",
+    "patterns":["vous avez des tops","tops"],
+    "responses":[" Vous recherchez des tops  :<br>  [FEMME], [FILLE] <br>  Choisissez la catégorie qui vous intéresse "],
+    "contexts":[""]
+},
+{
+    "tag":"tops /bodies femme",
+    "patterns":["vous avez des tops pour femme","tops femme","tops pour femme","bodies femmes","bodies pour femmes "],
+    "responses":[" Super choix ! 😎😍👚 les tops & bodys de notre collection sont disponibles dans différentes articles .<br> [TOUT VOIR],[BODY],[TOP],[BRETELLE],[BRASSIÈRE],[DEBARDEUR] <br>  vous pouvez visiter ce lien :<br> <a href=' https://kontakt.com.tn/shop/category/femme-vetements-tops-bodies-292' target='blank'>https://kontakt.com.tn/tops-bodies</a> "],
+    "contexts":[""]
+},
+{
+    "tag":" tops /bodies fille ",
+    "patterns":["vous avez des tops pour fille","tops fille","tops pour fille","bodies filles","bodies pour filles "],
+    "responses":[" Super choix! 🦄🦢🦋🌈 les tops & bodys de notre collection sont disponibles dans différentes articles  <br> [TOUT VOIR],[BRASSIÈRE]  <br> vous pouvez visiter ce lien :<br> <a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-tops-bodies-539' target='blank'>https://kontakt.com.tn/tops-bodies</a> "],
+    "contexts":[""]
+},
+{
+    "tag":" robes / combinaisons ",
+    "patterns":[" vous avez des robes","vous avez des combinaisons ","robes ","combinaisons"],
+    "responses":[" Vous recherchez des robes & combinaisons : <br> [FEMME], [FILLE], [BEBE] <br> Choisissez la catégorie qui vous intéresse "],
+    "contexts":[""]
+},
+{
+    "tag":"robes / combinaisons femme ",
+    "patterns":["vous avez des combinaisons pour femme","vous avez des robes pour femme","combinaisons femme","combinaison pour femme","robes femmes","robes pour femmes "],
+    "responses":[" Super choix! 👗👘😍 les robes & combinaisons de notre collection sont disponibles dans différentes articles 💃 <br> [TOUT VOIR],[ROBE EN MAILLE],[ROBE EN JEANS],[COMBINAISON] <br>  sinon vous pouvez visiter ce lien : <br> <a href ='https://kontakt.com.tn/shop/category/femme-vetements-robes-combinaisons-212' target='blank'>https://kontakt.com.tn/robes-combinaisons</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"robes / combinaisons fille",
+    "patterns":["vous avez des combinaisons pour fille","vous avez des robes pour fille","combinaisons fille","combinaison pour fille","robes fille","robes pour fille "],
+    "responses":[" Super choix! 😍💃👏  les robes & combinaisons de notre collection sont disponibles dans différentes articles  <br> [TOUT VOIR],[ROBE EN JEANS],[COMBINAISON ] <br>  vous pouvez visiter ce lien :<br> <a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-robes-combinaisons-59' target='blank'>https://kontakt.com.tn/robes-combinaisons</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"robes / combinaisons bebe",
+    "patterns":["vous avez des combinaisons pour bebe","vous avez des robes pour bebe","combinaisons bebe","combinaison pour bebe","robes bebe","robes pour bebe "],
+    "responses":["les robes & combinaisons 🦢🦋 de notre collection sont disponibles dans différentes articles <br> [TOUT VOIR],[ROBE EN MAILLE],[ROBE EN JEANS],[COMBINAISON ]<br>   vous pouvez visiter ce lien :<br> <a href='https://kontakt.com.tn/shop/category/bebe-vetements-robes-combinaisons-254' target='blank'>https://kontakt.com.tn/robes/combinaisons</a>"],
+    "contexts":[""]
+},
+{
+    "tag":" jupes",
+    "patterns":[" vous avez des jupes","vous avez des jupes ","jupes"],
+    "responses":[" Vous recherchez des Jupes : <br> [FEMME], [FILLE], [BEBE]  <br> Choisissez la catégorie qui vous intéresse "],
+    "contexts":[""]
+},
+{
+    "tag":"jupes femme ",
+    "patterns":["vous avez des jupes pour femme","vous avez des jupes pour femme","jupes femme","jupes pour femme"],
+    "responses":["Super choix ! 👗👌💥💃 les jupes de notre collection sont disponibles dans différentes articles :<br>  [VOIT TOUT ],[JUPE EN MAILLE],[JUPE EN JEANS],[ JUPE EN CHAINE & TRAME] <br>  vous pouvez visiter ce lien :<br> <a href ='https://kontakt.com.tn/shop/category/femme-vetements-jupes-shorts-28' target='blank'>https://kontakt.com.tn/jupes</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"jupe  fille",
+    "patterns":["vous avez des jupes pour fille","vous avez des jupes pour fille","jupes fille","jupes pour fille"],
+    "responses":[" Super choix! 👗👧🤳👌 les jupes de notre collection sont disponibles dans différentes articles <br> [VOIT TOUT ],[JUPE EN JEANS]<br>   vous pouvez visiter ce lien :<br> <a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-jupes-shorts-58' target='blank'>https://kontakt.com.tn/jupes</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"jupe  bebe",
+    "patterns":["vous avez des jupes pour bebe","vous avez des jupes pour bebe","jupes bebe","jupes pour bebe"],
+    "responses":["Super choix ! 👗👧😎😍 les jupes de notre collection sont disponibles dans différentes articles <br> [VOIT TOUT ],[JUPE EN MAILLE],[JUPE EN MAILLE] <br>  vous pouvez visiter ce lien :\n<a href=' https://kontakt.com.tn/shop/category/bebe-vetements-jupes-shorts-314' target='blank'>https://kontakt.com.tn/jupes</a>"],
+    "contexts":[""]
+},
+{
+    "tag":" short",
+    "patterns":[" vous avez des short","vous avez des short ","short"],
+    "responses":[" Vous recherchez des short : <br> [FEMME],[HOMME],[ENFANT],[BEBE] <br>  Choisissez la catégorie qui vous intéresse  "],
+    "contexts":[""]
+},
+{
+    "tag":"short femme ",
+    "patterns":["vous avez des short pour femme","vous avez des short pour femme","short femme","short pour femme"],
+    "responses":["Super choix! 😎😍🦚🦜 les shorts de notre collection sont disponibles dans différentes articles <br> [SHORT EN MAILLE],[SHORT EN JEANS], [SHORT EN CHAINE & TRAME]<br>  vous pouvez visiter ce lien :<br> <a href=' https://kontakt.com.tn/shop/category/femme-vetements-jupes-shorts-28' target='blank'>https://kontakt.com.tn/shorts</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"short/bermudas homme ",
+    "patterns":["vous avez des short pour homme","vous avez des short pour homme","short homme","short pour homme" ," bermudas homme"],
+    "responses":["Super choix 😎 ! les shorts de notre collection sont disponibles dans différentes articles <br> [TOUT VOIR],[REGULAR SHORT],[SLIM SHORT],[CHINO SHORT],[CYCLISTE],[SHORT FLUIDE]<br>   vous pouvez visiter ce lien : <br> <a href='https://kontakt.com.tn/shop/category/homme-vetements-shorts-bermudas-12' target='blank'>https://kontakt.com.tn/shorts</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"short  fille",
+    "patterns":["vous avez des short pour fille","vous avez des short pour fille","short fille","short pour fille"],
+    "responses":[" Super choix 😍👧👌! les shorts de notre collection sont disponibles dans différentes articles .<br> [SHORT EN JEANS],[CYCLISTE] "],
+    "contexts":[""]
+},
+{
+    "tag":"short/bermudas garcon ",
+    "patterns":["vous avez des short pour garcon","vous avez des short pour garcon","short garcon","short pour garcon" ," bermudas garcon"],
+    "responses":["Super choix 😎🧒👌 ! les shorts de notre collection sont disponibles dans différentes articles <br> [TOUT VOIR],[SHORT EN JEANS],[CHINO SHORT]<br>   vous pouvez visiter ce lien : <br> <a href='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-shorts-bermudas-125' target='blank'>https://kontakt.com.tn/shorts</a>  "],
+    "contexts":[""]
+},
+{
+    "tag":"short  bebe",
+    "patterns":["vous avez des short pour bebe","vous avez des short pour bebe","short bebe","short pour bebe"],
+    "responses":["Super choix 👌👦 ! les shorts de notre collection sont disponibles dans différentes articles . 🐤🐣🐥 <br> [TOUT VOIR],[SHORT EN MAILLE],[SHORT EN JEANS] <br>  vous pouvez visiter ce lien :<br> <a href ='https://kontakt.com.tn/shop/category/bebe-vetements-jupes-shorts-314' target='blank'>https://kontakt.com.tn/jupes-shorts</a>"],
+    "contexts":[""]
+},
+
+{
+    "tag":" pantallons",
+    "patterns":[" vous avez des pantallons","vous avez des pantallons ","pantallons"],
+    "responses":[" À la recherche de pantalons ? Nous avons une belle sélection pour<br>  [FEMME],[HOMME],[ENFANT],[BEBE] Faites votre choix parmi nos catégories 👖😎"],
+    "contexts":[""]
+},
+{
+    "tag":"pantalons femme ",
+    "patterns":["vous avez des pantalons pour femme","vous avez des pantallon pour femme","pantalon femme","pantallons pour femme"],
+    "responses":["Excellent choix 😎😍👩! Nos pantalons de collection sont disponibles dans une variété d'articles et de styles <br> [VOIT TOUT] ,[PANTALON EN MAILLE],[PANTALON EN CHAINE ET TRAME] <br>   vous pouvez visiter ce lien :<br> <a href='https://kontakt.com.tn/shop/category/femme-vetements-pantalons-26' target='blank'>https://kontakt.com.tn/pantalons</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"pantalons homme ",
+    "patterns":["vous avez des pantalons pour homme","vous avez des pantalons pour homme","pantallons homme","pantalons pour homme"],
+    "responses":["Excellent choix 😎😍🧔👖🤳 ! Nos pantalons de collection sont disponibles dans une variété d'articles et de styles <br> [VOIT TOUT ],[PANTALON CHINO],[PANTALON FLUIDE]<br>   vous pouvez visiter ce lien :<br> <a href='https://kontakt.com.tn/shop/category/homme-vetements-pantalons-79 ' target='blank'>https://kontakt.com.tn/pantalons</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"pantalons fille",
+    "patterns":["vous avez des pantalons pour fille","vous avez des pantalons pour fille","pantalons fille","pantallons pour fille"],
+    "responses":[" Super choix 😍👧👌! les pantallonss de notre collection sont disponibles dans différentes articles <br> [TOUT VOIR],[TREGGING PAT],[LEGGING] <br>   vous pouvez visiter ce lien : <br> <a href ='https://kontakt.com.tn/shop/category/enfants-fille-vetements-pantalons-536 ' target='blank'>https://kontakt.com.tn/pantalons</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"pantallons garcon ",
+    "patterns":["vous avez des pantallons pour garcon","vous avez des pantallons pour garcon","pantallons garcon","pantalon pour garcon" ],
+    "responses":["Super choix 😎👌 ! les pantalon de notre collection sont disponibles dans différentes articles \n[TOUT VOIR],[PANTALON CHINO] <br>  vous pouvez visiter ce lien :<br> <a href ='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-pantalons-124 ' target='blank'>https://kontakt.com.tn/pantalons</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"pantallon  bebe",
+    "patterns":["vous avez des pantallon pour bebe","vous avez des pantallon pour bebe","pantallon bebe","pantallon pour bebe"],
+    "responses":["Super choix! les pantalon de notre collection sont disponibles dans différentes articles .👖✨<br>  <a href='' target ='blank'>[TOUT VOIR],[TREGGING PAT],[LEGGING]   vous pouvez visiter ce lien : <br> <a href='https://kontakt.com.tn/shop/category/bebe-vetements-pantalons-184' target='blank'>https://kontakt.com.tn/pantalons</a>"],
+    "contexts":[""]
+},
+{
+    "tag":" sweats / hoodies",
+    "patterns":[" vous avez des sweats","vous avez des sweats ","sweats","hoodies",""],
+    "responses":[" À la recherche des sweats & hoodies ? Nous avons une belle sélection pour<br>  <a href='https://kontakt.com.tn/shop/category/femme-vetements-sweats-hoodies-379' target='blank'><button>FEMME</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/homme-vetements-sweats-hoodies-390' target='blank'><button>HOMME</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-sweat-hoodies-387' target='blank'><button>FILLE</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-sweats-hoodies-386' target='blank'><button>GARCON</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/bebe-vetements-sweats-hoodies-396' target='blank'><button>BEBE</button></a> <br> Faites votre choix parmi nos catégories "],
+    "contexts":[""]
+},
+{
+    "tag":"sweats / hoodies femme ",
+    "patterns":["vous avez des sweats pour femme","vous avez des hoodies pour femme","sweats hoodies femme","hoodies pour femme"],
+    "responses":["Superbe sélection 🙈💃🦋👒💗 ! Les hoodies de notre collection sont disponibles dans une diversité d'articles et de styles <br> <a href='https://kontakt.com.tn/shop/category/femme-vetements-sweats-hoodies-379' target='blank'><button>Tout Voir</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-vetements-sweats-hoodies-sweat-cropped-529' target='blank'><button>Sweat Cropped</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-vetements-sweats-hoodies-hoodie-cropped-532' target='blank'><button>Hoodie Cropped</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-vetements-sweats-hoodies-hoodie-zippe-531' target='blank'><button>Hoodie zippe</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-vetements-sweats-hoodies-hoodie-regular-533' target='blank'><button>Hoodie Regular</button></a> <br>   vous pouvez visiter ce lien :<br> <a href ='https://kontakt.com.tn/shop/category/femme-vetements-sweats-hoodies-379' target='blank'>https://kontakt.com.tn/sweats-hoodies</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"sweats / hoodies  homme ",
+    "patterns":["vous avez des sweats pour homme","vous avez des hoodies pour homme","sweats homme","hoodies pour homme"],
+    "responses":["Superbe sélection 🤞😎 ! Les hoodies de notre collection sont disponibles dans une diversité d'articles et de styles 🤩 <br> <a href='https://kontakt.com.tn/shop/category/homme-vetements-sweats-hoodies-390' target='blank'><button>Tout Voir</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/homme-vetements-sweats-hoodies-sweat-regular-598' target='blank'><button>Sweat Regular</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/homme-vetements-sweats-hoodies-hoodie-oversized-599' target='blank'><button>Hoodie oversized</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/homme-vetements-sweats-hoodies-sweat-col-chemine-600' target='blank'><button>Sweat Col Chemise</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/homme-vetements-sweats-hoodies-hoodie-zippe-601' target='blank'><button>Hoodie Zippe</button></a>  <br>   vous pouvez visiter ce lien :<br> <a href=' https://kontakt.com.tn/shop/category/homme-vetements-sweats-hoodies-390' target='blank'>https://kontakt.com.tn/sweats-hoodies</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"sweats / hoodies fille",
+    "patterns":["vous avez des sweats pour fille","vous avez deshoodies pour fille","hoodies fille","sweats pour fille"],
+    "responses":[" Super choix 👏🙏💖 ! les sweats & hoodies de notre collection sont disponibles dans différentes articles 💝💞 <br> <a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-sweat-hoodies-387' target='lank'><button>Tout Voir</button></a>, &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-sweat-hoodies-sweat-crop-624' target='blank'><button>Sweat Crop</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-sweat-hoodies-hoodie-crop-625' target='blank><button>Hoodie Crop</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-sweat-hoodies-hoodie-zippe-579' target='blank'><button>Hoodie Zippe</button></a> <br>  vous pouvez visitez ce lien : <br> <a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-sweat-hoodies-387' target='blank'>https://kontakt.com.tn/sweat-hoodies</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"sweats / hoodies garcon ",
+    "patterns":["vous avez des sweats pour garcon","vous avez des hoodies pour garcon","sweats garcon","hoodies pour garcon" ],
+    "responses":["Super choix 🎯🍄🦊 ! les sweats & hoodies de notre collection sont disponibles dans différentes articles <br> <a href='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-sweats-hoodies-386' target='blank'><button>Tout voir</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-sweats-hoodies-sweat-regular-654' target='blank'><button>Sweat Regular</button></a> &nbsp; <a href ='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-sweats-hoodies-hoodie-regular-653' target='blank'><button>Hoodie Regular</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-sweats-hoodies-hoodie-oversized-651' target='blank'><button>Hoodie Oversized</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-sweats-hoodies-hoodie-zippe-652' target='blank'><button>Hoodie Zippe</button></a> <br>  vous pouvez visiter ce lien : <br> <a href =' https://kontakt.com.tn/shop/category/enfants-garcon-vetements-sweats-hoodies-386' target='blank'>https://kontakt.com.tn/sweats-hoodies</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"sweats / hoodies bebe",
+    "patterns":["vous avez des sweats pour bebe","vous avez des hoodies pour bebe","sweats bebe","hoodies pour bebe"],
+    "responses":["Super choix 👏💞💝 ! les sweats & hoodies de notre collection sont disponibles dans différentes articles <br> <a href='https://kontakt.com.tn/shop/category/bebe-vetements-sweats-hoodies-396' target='blank'><button>Tout Voir</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/bebe-vetements-sweats-hoodies-sweat-regular-679' target='blank'><button>Sweat Regular</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/bebe-vetements-sweats-hoodies-hoodie-regular-677' target='blank'><button>Hoodie Regular</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/bebe-vetements-sweats-hoodies-hoodie-zippe-678' target='blank'><button>Hoodie Zippie</button></a> <br>  vous pouvez visiter ce lien :<br> <a href ='https://kontakt.com.tn/shop/category/bebe-vetements-sweats-hoodies-396' target='blank'>https://kontakt.com.tn/sweats-hoodies</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"blazers /cardigans ",
+    "patterns":["Vous avez des Blazers ?","vous avez des blazers ","blazers","cardigans"],
+    "responses":["Nous avons une belle sélection de blazers & cardigans pour  FEMME <br> <a href='https://kontakt.com.tn/shop/category/femme-vetements-blazers-cardigans-526' target='blank'><button>tout Voir</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-vetements-blazers-cardigans-blazer-527' target='blank'><button>Blazer</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-vetements-blazers-cardigans-kimono-701' target='blank'><button>Kimono</button></a> vous pouvez trouver votre choix sur notre site web en suivant ce lien : <br> <a href ='https://kontakt.com.tn/shop/category/femme-vetements-blazers-cardigans-526' target='blank'>https://kontakt.com.tn/blazers-cardigans</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"Jackets /  ",
+    "patterns":["vous avez des jacket ","vous avez des manteaux ","jacket ","manteaux "],
+    "responses":["À la recherche des Jackets & Manteaux ? Nous avons une belle sélection pour <br>  <a href='https://kontakt.com.tn/shop/category/femme-vetements-jackets-manteaux-29' target='blank'><button>FEMME</button></a> &nbsp;  <a href='https://kontakt.com.tn/shop/category/homme-vetements-jackets-manteaux-13' target='blank'><button>HOMME</button></a><br> &nbsp;  <a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-jackets-172' target='blank'><button>FILLE</button></a> &nbsp;  <a href='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-jackets-114' target='blank'><button>GARCON</button></a> &nbsp;  <a href='https://kontakt.com.tn/shop/category/bebe-vetements-jackets-315' target='blank'><button>BEBE</button></a>  Faites votre choix parmi nos catégories "],
+    "contexts":[""]
+},
+{
+    "tag":"Jackets / Manteaux pour femme ",
+    "patterns":["vous avez des jacket pour femme ?","vous avez des manteaux pour femme ?","jacket pour femme","manteaux pour femme"],
+    "responses":["Superbe sélection 😍🤟💁‍♀! Les hoodies de notre collection sont disponibles dans une diversité d'articles et de styles <br> <a href='https://kontakt.com.tn/shop/category/femme-vetements-jackets-manteaux-29' target='blank'><button>Tout Voir</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-vetements-jackets-manteaux-jacket-regular-522' target='blank'><button>Jacket Regular</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-vetements-jackets-manteaux-jacket-cropped-521' target='blank'><button>Jacket Cropped</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-vetements-jackets-manteaux-manteau-528' target='blank'><button>Manteau</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-vetements-jackets-manteaux-dengri-524' target='blank'><button>Dingri</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-vetements-jackets-manteaux-bombers-523' target='blank'><button>Bombers</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-vetements-jackets-manteaux-jacket-workwear-525' target='blank'><button>Jacket Workwear </button></a> <br>  vous pouvez visiter ce lien : <br> <a href ='https://kontakt.com.tn/shop/category/femme-vetements-jackets-manteaux-29' target='blank'>https://kontakt.com.tn/jackets-manteaux</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"Jackets / Manteaux pour homme ",
+    "patterns":["vous avez des jacket pour homme?","vous avez des manteaux pour homme ?","jacket pour homme","manteaux pour homme"],
+    "responses":["Superbe sélection 😎😌🙆‍♂! Les Jackets & Manteaux de notre collection sont disponibles dans une diversité d'articles et de styles<br> <a href='https://kontakt.com.tn/shop/category/homme-vetements-jackets-manteaux-13' target='blank'><button>Tout Voir</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/homme-vetements-jackets-manteaux-manteau-580' target='blank'><button>Manteau</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/homme-vetements-jackets-manteaux-bombers-581' target='blank'><button>Bombers</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/homme-vetements-jackets-manteaux-jacket-workwear-582' target='blank'><button>Jacket Workwear</button></a> &nbsp;  <a href='https://kontakt.com.tn/shop/category/homme-vetements-jackets-manteaux-jacket-regular-583' target='blank'><button>Jacket Regular<button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/homme-vetements-jackets-manteaux-kimono-702' target='blank'><button>Kimono</button></a>  <br>  vous pouvez visiter ce lien : <br> <a href ='https://kontakt.com.tn/shop/category/homme-vetements-jackets-manteaux-13' target='blank'>https://kontakt.com.tn/manteaux</a> "],
+    "contexts":[""]
+},
+{
+    "tag":"Jackets pour fille",
+    "patterns":["vous avez des jacket pour fille?","jacket pour fille","jacket fille"],
+    "responses":["Super choix 👍🙏💖 ! les Jackets de notre collection sont disponibles dans différentes articles <br> <a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-jackets-172' target='blank'><button>Tout voir</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-jackets-bombers-628' target='blank'><button>Bombers</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-jackets-jacket-regular-631' target='blank'><button>Jacket Regular</button></a>  &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-jackets-jacket-cropped-629' target='blank'><button>Jacket Cropped</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-jackets-jacket-workwear-630' target='blank'><button>JAcket Workwear</button></a> <br>  vous pouver visiter ce lien :<br> <a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-jackets-172' target='blank'>https://kontakt.com.tn/jackets</a> ."],
+    "contexts":[""]
+},
+{
+    "tag":"Jackets  pour garcon",
+    "patterns":["vous avez des jacket pour garcon?","jacket pour garcon"],
+    "responses":["Super choix 😎🧒! les Jackets de notre collection sont disponibles dans différentes articles <br> <a href='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-jackets-114' target='blank'><button>Tout Voir</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-jackets-bombers-659' target='blank'><button>Bombers</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-jackets-teddy-660' target='blank'><button>Teddy</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-jackets-jacket-regular-663' target='blank'><button>Jacket regular</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-jackets-dengri-661' target='blank' ><button>Dengri</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-jackets-jacket-workwear-662' target='blank'><button>Jacket Workwear</button></a>  <br>   vous pouvez visiter ce lien :<br> <a href =' https://kontakt.com.tn/shop/category/enfants-garcon-vetements-jackets-114' target='blank'>https://kontakt.com.tn/jackets</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"Jackets  pour bebe",
+    "patterns":["vous avez des jacket pour bebe?","jacket pour bebe","jacket bebe","jaket bebe"],
+    "responses":["Super choix 🤟💓🦋! les Jackets de notre collection sont disponibles dans différentes articles <br> <a href='https://kontakt.com.tn/shop/category/bebe-vetements-jackets-315' target='blank'><button>Tout Voir</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/bebe-vetements-jackets-bombers-682' target='blank'><button>Bombers</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/bebe-vetements-jackets-jacket-regular-685' target='blank'><button>Jacket Regular</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/bebe-vetements-jackets-dengri-683' target='blank'><button>Dengri</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/bebe-vetements-jackets-jacket-workwear-684' target='blank'><button>Jacket Workwear</button></a> <br> sinon vous pouvez visiter ce lien : <br> <a href ='https://kontakt.com.tn/shop/category/bebe-vetements-jackets-315' target='blank'>https://kontakt.com.tn/jackets</a> "],
+    "contexts":[""]
+},
+{
+    "tag":"joggers/jogers/joger",
+    "patterns":["vous avez des joggers","vous avez des joggers ?","joggers","joger"],
+    "responses":["À la recherche des Joggers ? 🥰 Nous avons une belle sélection pour  <br> <a href='https://kontakt.com.tn/shop/category/femme-vetements-joggers-378' target='blank'><button>FEMME</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/homme-vetements-joggers-380' target='blank'><button>HOMME</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-joggers-388' target='blank'><button>FILLE</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-joggers-385' target='blank'><button>GARCON</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/bebe-vetements-joggers-383' target='blank'><button>BEBE</button></a> <br> Faites votre choix parmi nos catégories  "],
+    "contexts":[""]
+},
+{
+    "tag":"joggers/jogers/joger pour femme",
+    "patterns":["vous avez des joggers pour femme?","vous avez des joggers pour femme ?","joggers femme","joger femme"],
+    "responses":["Superbe sélection 👏💕😍 ! Les Joggers de notre collection sont disponibles dans une diversité d'articles et de styles <br> <a href='https://kontakt.com.tn/shop/category/femme-vetements-joggers-378' target='blank'><button>tout Voir</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-vetements-joggers-jogger-cargo-514' target='blank'><button>Jogger Cargo</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-vetements-joggers-jogger-chino-515' target='blank'><button>Jogger Chino</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-vetements-joggers-jogger-flare-516' target='blank'><button>Jogger Flare</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-vetements-joggers-joggers-jambe-droite-518' target='blank'><button>Jogger Jambe Droite </button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-vetements-joggers-jogger-slim-519' target='blank'><button>Jogger Slim</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-vetements-joggers-jogger-wide-leg-520' target='blank'><button>Jogger Wide Leg</button></a> <br>  vous pouver visiter ce lien :<br> <a href =' https://kontakt.com.tn/shop/category/femme-vetements-joggers-378' target='blank'>https://kontakt.com.tn/joggers</a> "],
+    "contexts":[""]
+},
+{
+    "tag":"joggers/jogers/joger pour homme",
+    "patterns":["vous avez des joggers pour homme?","vous avez des joggers pour homme ?","joggers homme","joger homme"],
+    "responses":["Superbe sélection 👌💖 ! Les Joggers de notre collection sont disponibles dans une diversité d'articles et de styles <br> <a href='https://kontakt.com.tn/shop/category/homme-vetements-joggers-380' target='blank'><button>Tout voir</button></a>  &nbsp; <a href='https://kontakt.com.tn/shop/category/homme-vetements-joggers-jogger-cargo-602' target='blank'><button>Jogger Cargo</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/homme-vetements-joggers-jogger-regular-603' target='blank'><button>Jogger Regular</button></a> <br>   vous pouvez visiter ce lien : <br> <a href ='https://kontakt.com.tn/shop/category/homme-vetements-joggers-380' target='blank'>https://kontakt.com.tn/joggers</a> "],
+    "contexts":[""]
+},
+{
+    "tag":"joggers/jogers/joger pour fille feminin ",
+    "patterns":["vous avez des joggers pour fille ?","vous avez des joggers pour fille  ?","joggers fille ","joger fille ","joger feminin"],
+    "responses":["Super choix 👌👏🦄 ! les Joggers de notre collection sont disponibles dans différentes articles <br> <a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-joggers-388' target='blank'><button>Tout Voir</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-joggers-jogger-cargo-632' target='blank'><button>Jogger Cargo</button></a> &nbsp;<a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-joggers-jogger-slim-636' target='blank'><button>Jogger Slim</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-joggers-jogger-flare-633' taregt='blank'><button>Jogger Flare</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-joggers-jogger-wide-leg-634' taregt='blank'><button>Jogger Wide Leg</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-fille-vetements-joggers-jogger-paperbag-635' target='blank'><button>Jogger Paperbag</button></a> <br>   vous pouvez visiter ce lien : <br> <a href =' https://kontakt.com.tn/shop/category/enfants-fille-vetements-joggers-388' target='blank'> https://kontakt.com.tn/joggers</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"joggers/jogers/joger pour garcon masculin",
+    "patterns":["vous avez des joggers pour garcon ?","vous avez des joggers pour garcon ?","joggers garcon","joger garcon","jogger enfant masculin" ],
+    "responses":["Super choix 👌💙 ! les Joggers de notre collection sont disponibles dans différentes articles <br> <a href='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-joggers-385' target='blank'><buton>Tout Voir</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-jeans-cargo-649' target='blank'><button>Jogger Cargo</button></a> <br>  vous pouvez visiter ce lien : <br> <a href ='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-joggers-385' target='blank'>https://kontakt.com.tn/joggers</a> "],
+    "contexts":[""]
+},
+{
+    "tag":"joggers/jogers/joger pour bebe",
+    "patterns":["vous avez des joggers pour bebe ?","vous avez des joggers pour bebe ?","joggers bebe","joger bebe"],
+    "responses":["Super choix 😍👌! les Joggers de notre collection sont disponibles dans différentes articles <br>  <a href='https://kontakt.com.tn/shop/category/bebe-vetements-joggers-383' target='blank'><button>Tout Voir</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/bebe-vetements-joggers-jogger-cargo-687' target='blank'><button>Jogger Cargo</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/bebe-vetements-joggers-jogger-regular-689' target='blank'><button>Jogger Regular</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/bebe-vetements-joggers-jogger-paperbag-686' target='blank'><button>Jogger Paperbag</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/bebe-vetements-joggers-wide-leg-709' target='blank'><button>Jogger Wide Leg</button></a> <br>  vous pouver visiter ce lien :<br> <a href =' https://kontakt.com.tn/shop/category/bebe-vetements-joggers-383' target='blank'>https://kontakt.com.tn/joggers</a> 👖💖"],
+    "contexts":[""]
+},
+
+{
+    "tag":"polos /polo",
+    "patterns":["vous avez des polo","vous avez des polo ?","polo","polos","tshirt polo"],
+    "responses":[" À la recherche des Polos 😎 ? Nous avons une belle sélection pour <br> <a href='https://kontakt.com.tn/shop/category/femme-vetements-polos-535' target='blank'><button>FEMME</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/homme-vetements-polos-320' target='blank'><button>HOMME</button></a> &nbsp;  <a href='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-polos-321' target='blank'><button>GARCON</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/bebe-vetements-t-shirts-polos-83' target='blank'><button>BEBE</button></a> <br> . <br> Faites votre choix parmi nos catégories "],
+    "contexts":[""]
+},
+{
+    "tag":"polo pour femme",
+    "patterns":["vous avez des polo pour femme?","vous avez des polo pour femme ?","polo femme"],
+    "responses":["Superbe sélection 😎😍👌 ! Les Polos de notre collection sont disponibles dans une diversité d'articles et de styles <br> <a href='https://kontakt.com.tn/shop/category/femme-vetements-polos-535' target='blank'><button>Tout Voir</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-vetements-polos-polo-crop-590' target='blank'><button>Polo Crop</button></a> <br>  vous pouvez visiter ce lien :<br> <a href=' https://kontakt.com.tn/shop/category/femme-vetements-polos-535' target='blank'>https://kontakt.com.tn/polos</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"polos pour homme",
+    "patterns":["vous avez des polos pour homme?","vous avez des polo pour homme ?","polos homme"],
+    "responses":["Superbe sélection 😎 ! Les Polos de notre collection sont disponibles dans une diversité d'articles et de styles <br> <a href='https://kontakt.com.tn/shop/category/homme-vetements-polos-320' target='blank'><button>Tout Voir</button></a> & nbsp; <a href='https://kontakt.com.tn/shop/category/homme-vetements-polos-polo-slim-597' target='blank'><button>Polo Slim</button></a> <br>  vous pouver visiter ce lien :<a href=' https://kontakt.com.tn/shop/category/homme-vetements-polos-320 ' target='blank'>https://kontakt.com.tn/polos</a> "],
+    "contexts":[""]
+},
+{
+    "tag":"polo pour garcon ",
+    "patterns":["vous avez des polos pour garcon ?","vous avez des polos pour garcon ?","polos garcon","polo garcon" ],
+    "responses":["Super choix 👌💙 ! les polos de notre collection sont disponibles dans différentes articles <br>  <a href='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-polos-321' target='blank'><button>Tout Voir</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-polos-polo-regular-706' target='blank><button>Polo Regular</button></a> &nbsp;  vous pouvez visiter ce lien : <br> <a href='https://kontakt.com.tn/shop/category/enfants-garcon-vetements-polos-321' target='blank'>https://kontakt.com.tn/polos</a>"],
+    "contexts":[""]
+},
+{
+    "tag":"swimwear / maillot de plage ",
+    "patterns":["vous avez des swimwear","vous avez des swimwear ?","swimwear","maillot" ,"vous avez des maillots "],
+    "responses":["🥰  À la recherche des swimwears ? Nous avons une belle sélection pour <br>  <a href='https://kontakt.com.tn/shop/category/femme-swimwear-344' target='blank'><button>FEMME</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/homme-swimwear-343' target='blank'><button>HOMME</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-fille-swimwear-346' target='blank'><button>FILLE</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-garcon-swimwear-345' target='blank'><button>GARCON</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/bebe-swimwear-347' target='blank'><button>BEBE</button></a> &nbsp; Faites votre choix parmi nos catégories   "],
+    "contexts":[""]
+},
+{
+    "tag":"swimwear / maillot de plage pour femme ",
+    "patterns":["vous avez des swimwear pour femme","vous avez des swimwear pour femme?","swimwear femme","maillot femme" ,"vous avez des maillots pour femme "],
+    "responses":["Superbe sélection 🦑🐳💖 ! Les swimwears de notre collection sont disponibles dans une diversité d'articles et de styles <br> <a href='https://kontakt.com.tn/shop/category/femme-swimwear-344' target='blank'><button>Tout Voir</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-swimwear-cache-maillots-349' target='blank'><button>Cache Maillot</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-swimwear-maillots-de-bain-348' target='blank'><button>Maillot de Bain</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-swimwear-robe-de-plage-350' target='blank'><button>Robe de Plage</button></a> <br>  vous pouver visiter ce lien : <br> <a href ='https://kontakt.com.tn/shop/category/femme-swimwear-344' target='blank'>https://kontakt.com.tn/swimwear</a>  🌊🌞🌴  "],
+    "contexts":[""]
+},
+
+{
+    "tag":"swimwear / maillot de plage pour homme  ",
+    "patterns":["vous avez des swimwear pour homme ","vous avez des swimwear pour homme ?","swimwear homme ","maillot homme " ,"vous avez des maillots pour homme  "],
+    "responses":["Superbe sélection 🌊🌞🌴 ! Les swimwears de notre collection sont disponibles dans une diversité d'articles et de styles <br> <a href='https://kontakt.com.tn/shop/category/homme-swimwear-343'  target='blank'><button>Tout Voir</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/homme-swimwear-shorts-de-bain-351' target='blank'><button>Short de Bain</button></a> <br>  vous pouvez visiter ce lien : <br> <a href ='https://kontakt.com.tn/shop/category/homme-swimwear-343' target='blank'>https://kontakt.com.tn/swimwear</a>  "],
+    "contexts":[""]
+}, 
+{
+    "tag":"swimwear / maillot de plage pour fille  ",
+    "patterns":["vous avez des swimwear pour fille ","vous avez des swimwear pour fille ?","swimwear fille ","maillot fille " ,"vous avez des maillots pour fille  "],
+    "responses":["Super choix 👌😍🐙🦑 ! les swimwear de notre collection sont disponibles dans différentes articles <br> <a href='https://kontakt.com.tn/shop/category/enfants-fille-swimwear-346' target='blank'><button>Tout Voir</button></a> &nbsp; <a href ='https://kontakt.com.tn/shop/category/enfants-fille-swimwear-cache-maillots-355' target='blank'><button>Cache Maillot</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-fille-swimwear-maillots-de-bain-354' target='blank><button>Maillot de Bain</button></a  <br>  vous pouvez visiter ce lien 🌊🌞🌴: <br> <a href ='https://kontakt.com.tn/shop/category/enfants-fille-swimwear-346' target='blank'>https://kontakt.com.tn/swimwear</a> "],
+    "contexts":[""]
+}, 
+{
+    "tag":"swimwear / maillot de plage pour garcon ",
+    "patterns":["vous avez des swimwear pour garcon","vous avez des swimwear pour garcon?","swimwear garcon","maillot garcon" ,"vous avez des maillots pour garcon "],
+    "responses":["Super choix 🌊🌞🌴! les swimwear de notre collection sont disponibles dans différentes articles <br> <a href='https://kontakt.com.tn/shop/category/enfants-garcon-swimwear-345' target='blank'><button>Tout Voir</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-garcon-swimwear-short-de-bain-357' target='blank><button>Short de Bain</button></a <br>   vous pouvez visiter ce lien 🌊🌞🌴 :<br> <a href='https://kontakt.com.tn/shop/category/enfants-garcon-swimwear-345' target='blank'>https://kontakt.com.tn/swimwear</a>  "],
+    "contexts":[""]
+}, 
+{
+    "tag":"swimwear / maillot de plage pour bebe ",
+    "patterns":["vous avez des swimwear pour bebe","vous avez des swimwear pour bebe?","swimwear bebe","maillot bebe" ,"vous avez des maillots pour bebe "],
+    "responses":["Super choix 🐠👶! les swimwear de notre collection sont disponibles dans différentes articles <br> <a href='https://kontakt.com.tn/shop/category/bebe-swimwear-347' target='blank'><button>Tout voir</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/bebe-swimwear-cache-maillots-359' target='blank'><button> Cache Maillot</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/bebe-swimwear-maillot-de-bain-360' target='blank'><button>Maillot de Bain</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/bebe-swimwear-short-de-bain-698' target='blank'><button>Short de Bain</button></a> <br>  vous pouvez visiter ce lien 🌊🌞🌴: <br> <a href='https://kontakt.com.tn/shop/category/bebe-swimwear-347' target='blank'>https://kontakt.com.tn/swimwear</a> "],
+    "contexts":[""]
+},
+{
+    "tag":"accessoir ",
+    "patterns":["vous avez des accessoir","vous avez des accessoirs ?","accessoir" ,"accesoir"],
+    "responses":[" À la recherche des accessoirs 📿👜🛍️ ? Nous avons une belle sélection pour <br> <a href='https://kontakt.com.tn/shop/category/femme-accessoires-466' target='blank'><button>FEMME</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/enfants-fille-accessoires-chaussettes-440' target='blank'><button>FILLE</button></a><br> <a href='https://kontakt.com.tn/shop/category/enfants-garcon-accessoires-chaussettes-441' target='blank'><button>GARCON</button></a>  Faites votre choix parmi nos catégories "],
+    "contexts":[""]
+},
+{
+    "tag":"accessoir pour femme ",
+    "patterns":["vous avez des accessoir pour femme","vous avez des accessoir pour femme?","accessoir femme","acesoir femme"],
+    "responses":["Superbe sélection 😍📿🛍️💕! Les accessoirs de notre collection sont disponibles dans une diversité d'articles : <br> <a href='https://kontakt.com.tn/shop/category/femme-accessoires-466' target='blank'><button>Tout voir</button></a> &nbsp <a href='https://kontakt.com.tn/shop/category/femme-accessoires-sac-a-main-474' target='blank'><button>Sac</button></a><br><a href='https://kontakt.com.tn/shop/category/femme-accessoires-tote-bag-467' target ='blank><button>Totebag</button></a> <br>   vous pouvez visiter ce lien : <br> <a href='https://kontakt.com.tn/shop/category/femme-accessoires-466' target='blank'> https://kontakt.com.tn/accessoires </a>"],
+    "contexts":[""]
+},
+{
+    "tag":"accessoir pour garcon /chaussette garcon ",
+    "patterns":["vous avez des accessoir pour garcon","vous avez des accessoir pour garcon?","accessoir garcon","chaussette garcon","chausette garcon"],
+    "responses":["Excellent choix 🙈🙉👌😍! Decouvrez Nos chaussettes de collection sont disponibles dans une variété d'articles et de styles: <br> <a href=' https://kontakt.com.tn/shop/category/enfants-garcon-accessoires-chaussettes-441' target='blank'> https://kontakt.com.tn/accessoires</a> 🧦💛"],
+    "contexts":[""]
+},
+{
+    "tag":"accessoir pour fille /chaussette fille",
+    "patterns":["vous avez des accessoir pour fille","vous avez des accessoir pour fille?","accessoir fille","chaussettes fille","chausette fille"],
+    "responses":["Super choix 👏🐼🧦 ! les chaussettes de notre collection sont disponibles dans différentes articles : <br>  <a href='https://kontakt.com.tn/shop/category/enfants-fille-accessoires-chaussettes-440' target='blank'> https://kontakt.com.tn/accessoires</a>  🧦💕"],
+    "contexts":[""]
+},
+{
+    "tag":"chaussettes",
+    "patterns":["vous avez des chaussettes","chaussette","chauset"],
+    "responses":["À la recherche des chaussettes 👟👠 ? Nous avons une belle sélection pour <button onclick='showChaussettes(\"femme\")'>FEMME</button> &nbsp; <button onclick='showChaussettes(\"homme\")'>HOMME</button> <br></br> <button onclick='showChaussettes(\"fille\")'>FILLE</button> &nbsp; <button onclick='showChaussettes(\"garcon\")'>GARÇON</button>"],
+    "contexts":[""]
+},
+{
+    "tag":"chaussettes femme",
+    "patterns":["vous avez des chaussettes pour femme?","chaussette femme","chauset fem"],
+    "responses":["Superbe sélection 👟👠👡👢! Les chaussettes de notre collection sont disponibles dans une diversité d'articles et de styles 💁‍♀<br><a href='https://kontakt.com.tn/shop/category/femme-chaussettes-chaussures-470' target='blank'><button>Tout voir</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-chaussettes-chaussures-chaussettes-442'><button>Chaussette</button></a>"],
+    "contexts":[""]
+},
+{
+    "tag":"chaussettes homme",
+    "patterns":["vous avez des chaussettes pour homme","chaussette homme","chauset hom"],
+    "responses":["Superbe sélection 😍🧔 ! Les chaussettes de notre collection sont disponibles dans une diversité d'articles 🧦 : &nbsp;  <a href='https://kontakt.com.tn/shop/category/homme-chaussettes-chaussures-472' target='blank'><button>Tout voir</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/homme-chaussettes-chaussures-chaussettes-443'><button>Chaussette</button></a>"],
+    "contexts":[""]
+},
+{
+    "tag":"chaussettes fille",
+    "patterns":["vous avez des chaussettes pour fille","chaussettes fille","chaussette fille"],
+    "responses":["Super choix 👏🐼🧦 ! les chaussettes de notre collection sont disponibles dans différentes articles : <br>  <a href='https://kontakt.com.tn/shop/category/enfants-fille-accessoires-chaussettes-440' target='blank'> https://kontakt.com.tn/accessoires</a>  🧦💕"],
+    "contexts":[""]
+},
+{
+    "tag":"chaussettes garcon",
+    "patterns":["vous avez des accessoires pour garçon?","chaussettes garçon","chaussette garçon"],
+    "responses":["Excellent choix 🙈🙉👌😍! Decouvrez Nos chaussettes de collection sont disponibles dans une variété d'articles et de styles: <br> <a href=' https://kontakt.com.tn/shop/category/enfants-garcon-accessoires-chaussettes-441' target='blank'> https://kontakt.com.tn/accessoires</a> 🧦💛"],
+    "contexts":[""]
+},
+
+{
+    "tag":"chaussure ",
+    "patterns":["vous avez des chaussure","vous avez des chaussures ?","chausure","chaussure"],
+    "responses":[" À la recherche des chaussures 👟👠? Nous avons une belle sélection des chaussures 👟👠 pour <br></br> <button>Femme</button> &nbsp; <button >Homme</button> <br></br>  "],
+    "contexts":[""]
+},
+{
+    "tag":"chaussures pour femme ",
+    "patterns":["vous avez des chaussure pour femme","chaussure pour femme"],
+    "responses":["Superbe sélection 👟👠👡👢! Les chaussures de notre collection sont disponibles dans une diversité d'articles et de styles 💁‍♀ <br></br> <a href='https://kontakt.com.tn/shop/category/femme-chaussettes-chaussures-470' target='_blank'><button >Tout voir</button></a> &nbsp; <button id='basket_femme' value='basket_femme'>Basket</button> <br></br> <a href='https://kontakt.com.tn/shop/category/femme-chaussettes-chaussures-espadrilles-471' target='blank'><button>Espadrille</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-chaussettes-chaussures-sandale-669' target='blank'><button>sandale</button></a> <br></br>  vous pouvez visiter ce lien : <br> <a href='https://kontakt.com.tn/shop/category/femme-chaussettes-chaussures-470' target='blank'>https://kontakt.com.tn/chaussures </a> </br></div>"],
+    "contexts":[""]
+},
+{
+    "tag":" basket pour femme ",
+    "patterns":["vous avez des basket pour femme","basket pour femme"],
+    "responses":["Superbe sélection 👟👠! Les chaussures de notre collection sont disponibles dans une diversité d'articles et de styles 💁‍♀ <br></br> <a href='https://kontakt.com.tn/shop/category/femme-chaussettes-chaussures-basket-668' target='_blank'> "],
+    "contexts":[""]
+},
+{
+    "tag":" espadrille pour femme ",
+    "patterns":["vous avez des espadrille pour femme","espadrile pour femme"],
+    "responses":["Superbe sélection 👟👠! Les espadrille de notre collection sont disponibles dans une diversité d'articles et de styles 💁‍♀ <br></br> <a href='https://kontakt.com.tn/shop/category/femme-chaussettes-chaussures-espadrilles-471' target='_blank'> "],
+    "contexts":[""]
+},
+{
+    "tag":" sandale pour femme ",
+    "patterns":["sandale"],
+    "responses":["Superbe sélection 👠👡! Les sandale de notre collection sont disponibles dans une diversité d'articles et de styles 💁‍♀ <br></br> <a href='https://kontakt.com.tn/shop/category/femme-chaussettes-chaussures-sandale-669' target='_blank'> "],
+    "contexts":[""]
+},
+{
+    "tag":"chaussure ",
+    "patterns":["vous avez des chaussure","vous avez des chaussures ?","chausure","chaussure"],
+    "responses":[" À la recherche des chaussures 👟👠? Nous avons une belle sélection des chaussures 👟👠 pour <br></br> <button>Femme</button> &nbsp; <button>Homme</button> <br></br>  "],
+    "contexts":[""]
+},
+{
+    "tag":"chaussure pour homme ",
+    "patterns":["vous avez des chaussure pour homme","chaussure homme","chausur hom"],
+    "responses":["Superbe sélection 👟👌🧔 ! Les chaussures de notre collection sont disponibles dans une diversité d'articles :<br></br> <button>Basket</button> &nbsp; <button >Espadrille</button></a>  <br></br>  vous pouvez visiter ce lien: <br> <a href='https://kontakt.com.tn/shop/category/homme-chaussettes-chaussures-472' target='blank'  > https://kontakt.com.tn/chaussures </a> </br></div>"],
+    "contexts":[""]
+},
+{
+    "tag":"basket pour homme ",
+    "patterns":["vous avez des basket pour homme","basket homme","basket hom"],
+    "responses":[" Les basket de notre collection sont disponibles dans une diversité d'articles : <br></br> <a href='https://kontakt.com.tn/shop/category/homme-chaussettes-chaussures-basket-605' target='blank'>https://kontakt.com.tn/shop/</>"],
+    "contexts":[""]
+},
+{
+    "tag":"espadrille pour homme ",
+    "patterns":["vous avez des espadrille pour homme","espadrille homme","espadrille hom"],
+    "responses":[" Les espadrilles de notre collection sont disponibles dans une diversité d'articles :<br></br> <a href='https://kontakt.com.tn/shop/category/homme-chaussettes-chaussures-espadrilles-473'>https://kontakt.com.tn/shop/</a>  <br></br>  "],
+    "contexts":[""]
+}
+
+
+
+]
+}
