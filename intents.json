@@ -1000,7 +1000,7 @@
 {
     "tag":"chaussure ",
     "patterns":["vous avez des chaussure","vous avez des chaussures ?","chausure","chaussure"],
-    "responses":[" À la recherche des chaussures 👟👠? Nous avons une belle sélection des chaussures 👟👠 pour <br></br> <button onclick=\"pubfetchWithString('vous avez des chaussure pour femme')\">Femme</button> &nbsp; <button>Homme</button> <br></br>  "],
+    "responses":[" À la recherche des chaussures 👟👠? Nous avons une belle sélection des chaussures 👟👠 pour <br></br> <button onclick=\"pubfetchWithString('vous avez des chaussure pour femme')\">Femme</button> &nbsp; <button onclick=\"pubfetchWithString('vous avez des chaussure pour homme')\">Homme</button> <br></br>  "],
     "contexts":[""]
 },
 {
