@@ -974,12 +974,6 @@
 },
 
 {
-    "tag":"chaussure ",
-    "patterns":["vous avez des chaussure","vous avez des chaussures ?","chausure","chaussure"],
-    "responses":[" À la recherche des chaussures 👟👠? Nous avons une belle sélection des chaussures 👟👠 pour <br></br> <button>Femme</button> &nbsp; <button >Homme</button> <br></br>  "],
-    "contexts":[""]
-},
-{
     "tag":"chaussures pour femme ",
     "patterns":["vous avez des chaussure pour femme","chaussure pour femme"],
     "responses":["Superbe sélection 👟👠👡👢! Les chaussures de notre collection sont disponibles dans une diversité d'articles et de styles 💁‍♀ <br></br> <a href='https://kontakt.com.tn/shop/category/femme-chaussettes-chaussures-470' target='_blank'><button >Tout voir</button></a> &nbsp; <button id='basket_femme' value='basket_femme'>Basket</button> <br></br> <a href='https://kontakt.com.tn/shop/category/femme-chaussettes-chaussures-espadrilles-471' target='blank'><button>Espadrille</button></a> &nbsp; <a href='https://kontakt.com.tn/shop/category/femme-chaussettes-chaussures-sandale-669' target='blank'><button>sandale</button></a> <br></br>  vous pouvez visiter ce lien : <br> <a href='https://kontakt.com.tn/shop/category/femme-chaussettes-chaussures-470' target='blank'>https://kontakt.com.tn/chaussures </a> </br></div>"],
@@ -1006,7 +1000,7 @@
 {
     "tag":"chaussure ",
     "patterns":["vous avez des chaussure","vous avez des chaussures ?","chausure","chaussure"],
-    "responses":[" À la recherche des chaussures 👟👠? Nous avons une belle sélection des chaussures 👟👠 pour <br></br> <button>Femme</button> &nbsp; <button>Homme</button> <br></br>  "],
+    "responses":[" À la recherche des chaussures 👟👠? Nous avons une belle sélection des chaussures 👟👠 pour <br></br> <button onclick=\"pubfetchWithString('vous avez des chaussure pour femme')\">Femme</button> &nbsp; <button>Homme</button> <br></br>  "],
     "contexts":[""]
 },
 {
