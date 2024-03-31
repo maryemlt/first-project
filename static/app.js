@@ -4,7 +4,6 @@ class Chatbox {
             openButton: document.querySelector('.chatbox__button'),
             chatBox: document.querySelector('.chatbox__support'),
             sendButton: document.querySelector('.send__button'),
-            btn_basket: document.getElementById('basket_femme')
         };
 
         this.state = false;
@@ -12,7 +11,7 @@ class Chatbox {
     }
 
     display() {
-        const { openButton, chatBox, sendButton, btn_basket } = this.args;
+        const { openButton, chatBox, sendButton } = this.args;
 
         openButton.addEventListener('click', () => this.toggleState(chatBox));
 
@@ -26,11 +25,31 @@ class Chatbox {
         });
 
         // Utilisez this.showValue au lieu de Chatbox.showValue
-        btn_basket.addEventListener('click', (event) => this.showValue(event));
     }
 
     showValue(event) {
         console.log(event.target.value);
+    }
+
+    fetchWithString(text){
+        fetch('http://127.0.0.1:5000/predict', {
+            method: 'POST',
+            body: JSON.stringify({ message: text }),
+            mode: 'cors',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+        })
+        .then(r => r.json())
+        .then(response => {
+            let msg2 = { name: "bot", message: response.answer };
+            this.messages.push(msg2);
+            this.updateChatText(this.args.chatBox);
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            this.updateChatText(this.args.chatBox);
+        });
     }
 
     toggleState(chatbox) {
@@ -92,9 +111,13 @@ class Chatbox {
     console.log(event.target.value);
 }
 }
+
+
 const chatbox = new Chatbox();
 chatbox.display();
-
+function pubfetchWithString(text){
+    chatbox.fetchWithString(text);
+}
 
 
 
